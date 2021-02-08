@@ -81,7 +81,6 @@ Voici un exemple de liste avec `&lt;ul&gt;` :
 	&lt;/ul&gt;
 
 ----------
-----------
 
 ## PHP
 
