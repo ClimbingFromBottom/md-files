@@ -10,34 +10,34 @@ Cascading Style Sheets, aussi appelées Feuilles de style, permet de gérer l'ap
 
 **Structure HTML basique**
 ```html```
-```&lt;!DOCTYPE htmlgt;```
-```lt;htmlgt;```
-```lt;headgt;```
-```    lt;!-- Ceci est un commentaire  --gt;```
-```    lt;titlegt;Titre ongletlt;/titlegt;```
-```lt;/headgt;```
-```lt;bodygt;```
-```    lt;h1gt;Titre important dans la page weblt;/h1gt;```
-```    lt;pgt;Ceci est un paragraphe sur la page.lt;/pgt;```
-```lt;/bodygt;```
-```lt;/htmlgt;```
+```&&lt;!DOCTYPE html&gt;```
+```&lt;html&gt;```
+```&lt;head&gt;```
+```    &lt;!-- Ceci est un commentaire  --&gt;```
+```    &lt;title&gt;Titre onglet&lt;/title&gt;```
+```&lt;/head&gt;```
+```&lt;body&gt;```
+```    &lt;h1&gt;Titre important dans la page web&lt;/h1&gt;```
+```    &lt;p&gt;Ceci est un paragraphe sur la page.&lt;/p&gt;```
+```&lt;/body&gt;```
+```&lt;/html&gt;```
 
 ### Balises & Attributs
 
 Les pages HTML sont remplies de ce qu'on appelle des balises. Celles-ci sont invisibles à l'écran pour vos visiteurs, mais elles permettent à l'ordinateur de comprendre ce qu'il doit afficher.
-Les balises se repèrent facilement. Elles sont entourées de « chevrons », c'est-à-dire des "`lt;`" et "`gt;`", comme ceci : "`lt;nom_balisegt;`". Il existe aussi la possibilité de mettre des attribut dans les balises. On distingue deux types de balises : les balises en paires et les balises orphelines.   
+Les balises se repèrent facilement. Elles sont entourées de « chevrons », c'est-à-dire des "`&lt;`" et "`&gt;`", comme ceci : "`&lt;nom_balise&gt;`". Il existe aussi la possibilité de mettre des attribut dans les balises. On distingue deux types de balises : les balises en paires et les balises orphelines.   
 
 ### Balises
 
 **Balise paires**  
 Elle se compose de deux balises. Une au début appelé balise ouvrante, et une à la fin appelé balise fermante, qui indique que la balise se termine. Ainsi tout ce qui est contenu entre les balises appartient aux balises.   
 
-Les documents HTML commenceront toujours avec "`lt;!DOCTYPE htmlgt;`" permettant de spécifier le type du document pour les navigateurs. Par la suite dans le document HTML lui-même, il y aura en début de document une balise "`lt;htmlgt;`" et "`lt;/htmlgt;`" à la fin. La partie visible du document HTML est contenue entre les balises "`lt;bodygt;`" et "`lt;/bodygt;`"
+Les documents HTML commenceront toujours avec "`&lt;!DOCTYPE html&gt;`" permettant de spécifier le type du document pour les navigateurs. Par la suite dans le document HTML lui-même, il y aura en début de document une balise "`&lt;html&gt;`" et "`&lt;/html&gt;`" à la fin. La partie visible du document HTML est contenue entre les balises "`&lt;body&gt;`" et "`&lt;/body&gt;`"
 
 **Balises orphelines**  
-Les balises orphelines sont des balises qui qui n'ont as besoin d'être "fermé"(ex: "`lt;brgt;`" pour un retour chariot).Elles servent aussi le plus souvent à insérer un élément à un endroit précis (ex: une image). Il n'est pas nécessaire de délimiter le début et la fin de l'image, on veut juste dire à l'ordinateur « Insère une image ici ».
+Les balises orphelines sont des balises qui qui n'ont as besoin d'être "fermé"(ex: "`&lt;br&gt;`" pour un retour chariot).Elles servent aussi le plus souvent à insérer un élément à un endroit précis (ex: une image). Il n'est pas nécessaire de délimiter le début et la fin de l'image, on veut juste dire à l'ordinateur « Insère une image ici ».
 ```html 
-   lt;img /gt; lt;!-- insere une image, en spécifiant le fichier dans l'attribut "src" --gt;
+   &lt;img /&gt; &lt;!-- insere une image, en spécifiant le fichier dans l'attribut "src" --&gt;
 ```
 
 ### Attributs
@@ -45,7 +45,7 @@ Les balises orphelines sont des balises qui qui n'ont as besoin d'être "fermé"
 Les attributs sont un peu les options des balises. Ils viennent les compléter pour donner des informations supplémentaires. L'attribut se place après le nom de la balise ouvrante et a le plus souvent une valeur, comme ceci :
 
 ```html
-    lt;img src="photo.jpg" /gt;
+    &lt;img src="photo.jpg" /&gt;
 ```  
 
 Dans ce cas de figure, l'attribut "src" permet d'indiquer l'image à afficher. L'ordinateur comprend alors qu'il doit afficher l'image qui est compris dans le fichier "photo.jpg".
@@ -53,31 +53,31 @@ Dans ce cas de figure, l'attribut "src" permet d'indiquer l'image à afficher. L
 
 ### Balises fréquentes
 
-`lt;h1gt;, lt;h2gt;, lt;h3gt;, lt;h4gt;, lt;h5gt;, lt;h6gt;`  
-gt; Ces balises permetttent de définir des titres de différents niveaux : h1 pour les grands titres et h6 pour les titres des sections très spécifiques.  
+`&lt;h1&gt;, &lt;h2&gt;, &lt;h3&gt;, &lt;h4&gt;, &lt;h5&gt;, &lt;h6&gt;`  
+&gt; Ces balises permetttent de définir des titres de différents niveaux : h1 pour les grands titres et h6 pour les titres des sections très spécifiques.  
 
-`lt;pgt;`  
-gt; La balise utilisée pour créer des paragraphes. Ces paragraphes sont généralement (automatiquement) séparés par des sauts de ligne.
+`&lt;p&gt;`  
+&gt; La balise utilisée pour créer des paragraphes. Ces paragraphes sont généralement (automatiquement) séparés par des sauts de ligne.
 
-`lt;agt;`  
-gt; Cette balise est utilisée afin de créer des liens vers des ressources externes : une autre page web, un e-mail, une image, une autre section du document, etc. Les balises `lt;agt;` contiennent le texte qui sera utilisé pour le lien, l'attribut "href" de cet élément est utilisé pour définir l'URL cible : `lt;a href="url_cible"gt;du texte qui sera lu par l'utilisateurlt;/agt;`.
+`&lt;a&gt;`  
+&gt; Cette balise est utilisée afin de créer des liens vers des ressources externes : une autre page web, un e-mail, une image, une autre section du document, etc. Les balises `&lt;a&gt;` contiennent le texte qui sera utilisé pour le lien, l'attribut "href" de cet élément est utilisé pour définir l'URL cible : `&lt;a href="url_cible"&gt;du texte qui sera lu par l'utilisateur&lt;/a&gt;`.
 
-`lt;imggt;`  
-gt; On a déjà vu cette balise plus haut, mais petit rappel. Cette balise permet d'intégrer une image dans un document HTML. Voici un exemple d'utilisation : `lt;img src="url/vers/mon/image.png" alt="Une description de l'image"gt;`
+`&lt;img&gt;`  
+&gt; On a déjà vu cette balise plus haut, mais petit rappel. Cette balise permet d'intégrer une image dans un document HTML. Voici un exemple d'utilisation : `&lt;img src="url/vers/mon/image.png" alt="Une description de l'image"&gt;`
 
-`lt;divgt;`  et  `lt;spangt;`  
-gt; Ces balises n'ont pas de signification particulière, elles permettent simplement de séparer des sections d'un document. La plupart du temps, ces balises sont utilisées pour la mise en forme (ou la structure).
+`&lt;div&gt;`  et  `&lt;span&gt;`  
+&gt; Ces balises n'ont pas de signification particulière, elles permettent simplement de séparer des sections d'un document. La plupart du temps, ces balises sont utilisées pour la mise en forme (ou la structure).
 
-`lt;ulgt;, lt;olgt;` et `lt;ligt;`
-gt;Ces balises sont utilisées pour créer des listes. `lt;ulgt;` permet de définir une liste non-ordonnée et `lt;olgt;` de définir une liste ordonnée. Pour chacune de ces listes, ce sera la balise  `lt;ligt;` qui permettra de définir un élément de la liste. 
+`&lt;ul&gt;, &lt;ol&gt;` et `&lt;li&gt;`
+&gt;Ces balises sont utilisées pour créer des listes. `&lt;ul&gt;` permet de définir une liste non-ordonnée et `&lt;ol&gt;` de définir une liste ordonnée. Pour chacune de ces listes, ce sera la balise  `&lt;li&gt;` qui permettra de définir un élément de la liste. 
 
-gt;Voici un exemple de liste avec `lt;ulgt;` :
+&gt;Voici un exemple de liste avec `&lt;ul&gt;` :
 ```html
-lt;ulgt;
-   lt;ligt;Cafélt;/ligt;
-   lt;ligt;Thélt;/ligt;
-   lt;ligt;Laitlt;/ligt;
-lt;/ulgt;
+&lt;ul&gt;
+   &lt;li&gt;Café&lt;/li&gt;
+   &lt;li&gt;Thé&lt;/li&gt;
+   &lt;li&gt;Lait&lt;/li&gt;
+&lt;/ul&gt;
 ```
 
 ----------
@@ -93,70 +93,70 @@ Lorsqu'un visiteur demande à consulter une page de site web, son navigateur env
 
 ### Structure du PHP
 
-Un script PHP peu être placer n'importe ou dans le document (souvent HTML). Un script commence par la balise `lt;?php` et finit par `?gt;`. En PHP les varibles commence par le symbole dollars "$" suivit du nom de la variable, puis le contenu de celle-ci.  
+Un script PHP peu être placer n'importe ou dans le document (souvent HTML). Un script commence par la balise `&lt;?php` et finit par `?&gt;`. En PHP les varibles commence par le symbole dollars "$" suivit du nom de la variable, puis le contenu de celle-ci.  
 
 **Syntaxe basique du PHP**
 ```php
-lt;!DOCTYPE htmlgt;
-lt;htmlgt;
-lt;bodygt;
-    lt;h1gt;Premier code PHPlt;/h1gt;
-    lt;?php
+&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;body&gt;
+    &lt;h1&gt;Premier code PHP&lt;/h1&gt;
+    &lt;?php
       echo "Hello World";                 // ce texte sera affiché sur le navigateur
       
       $prenomBob = "Bob";                 // assigne du texte dans la varible : "$prenomBob"
       echo "Bienvenue " . $prenomBob;     // affiche le texte & la variable concecutivement
-    ?gt;
-lt;/bodygt;
-lt;/htmlgt;
+    ?&gt;
+&lt;/body&gt;
+&lt;/html&gt;
 ```
 
 **Fonctions PHP**  
 Il existe tout un tas de fonctions pré-définis en PHP, mais si l'utilisateur souhaite en créer une, voici là syntaxe:
 
 ```php
-lt;?php
+&lt;?php
    function writeMsg() {       // crée la fonction
     echo "Hello world!";       // code here...
    }
  
    writeMsg();                 // appelle la fonction
- ?gt;
+ ?&gt;
 ```
 
 ### Formulaires
 Voici un formulaire basique HTML avec deux champs à remplir et un bouton pour valider
 ```html
-lt;htmlgt;
-lt;bodygt;
+&lt;html&gt;
+&lt;body&gt;
 
-lt;form action="welcome.php" method="post"gt;          lt;!-- methode "post" utilisé --gt;
-    Name: lt;input type="text" name="name"gt;lt;brgt;
-    E-mail: lt;input type="text" name="email"gt;lt;brgt;
-    lt;input type="submit"gt;
-lt;/formgt;
+&lt;form action="welcome.php" method="post"&gt;          &lt;!-- methode "post" utilisé --&gt;
+    Name: &lt;input type="text" name="name"&gt;&lt;br&gt;
+    E-mail: &lt;input type="text" name="email"&gt;&lt;br&gt;
+    &lt;input type="submit"&gt;
+&lt;/form&gt;
 
-lt;/bodygt;
-lt;/htmlgt;
+&lt;/body&gt;
+&lt;/html&gt;
 ```
 
 Lorsque l'on appuie sur le bouton "submit", le formulaire va rediriger vers une page PHP: "welcome.php"
 
 ```php
-lt;htmlgt;
-lt;bodygt;
+&lt;html&gt;
+&lt;body&gt;
 
-Welcome lt;?php echo $_POST["name"]; ?gt;lt;brgt;
-Your email address is: lt;?php echo $_POST["email"]; ?gt;
+Welcome &lt;?php echo $_POST["name"]; ?&gt;&lt;br&gt;
+Your email address is: &lt;?php echo $_POST["email"]; ?&gt;
 
-lt;/bodygt;
-lt;/htmlgt;
+&lt;/body&gt;
+&lt;/html&gt;
 ```
 
 Si "`John`" est remplie dans le champ "name" et "`john.doe@example.com`" dans "email", alors il sera affiché sur la page "Welcome.php" : 
 
-gt;`Welcome John`   
-gt;`Your email address is: john.doe@example.com`
+&gt;`Welcome John`   
+&gt;`Your email address is: john.doe@example.com`
 
 ### Methode : GET vs POST
 
@@ -181,8 +181,8 @@ Pour verifier si un champ est vide, afin d'afficher les bonnes informations ou n
 Exemple, ci-dessous:   
 
 ```php
-lt;!-- Sera présent dans le code de la page "Welcome.php" --gt;
-lt;?php
+&lt;!-- Sera présent dans le code de la page "Welcome.php" --&gt;
+&lt;?php
     if (empty($_POST["name"])) {      // verifie si champ est vide
         echo "Name is required"; }    // si vide alors erreur
     else {                            // sinon
@@ -194,7 +194,7 @@ lt;?php
      else {
         $email = $_POST["email"];     // affiche email
         echo $email; }
-?gt;
+?&gt;
 ```
 
 ------------------
