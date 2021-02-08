@@ -12,30 +12,30 @@ C'est un logiciel multi-plateforme utilisable sous Linux, Windows et Mac. Capabl
 
 Comme vous pouvez le voir sur le figure précédente, Wireshark utilise un code couleur:
 
-|Couleur     |Signification|
+|Couleur |Signification|
 |------------|-------------|
-|Mauve clair |traffic TCP  |
-|Gris        |paquet TCP avec un drapeau SYN ou FIN|
-|Rouge       |paquet TCP avec un drapeau RTS|
-|Noire       |paquet TCP avec un problème(souvent un numéro de séquence désordonné)|
-|Vert clair  |trafic HTTP  |
-|Bleu clair  |trafic DNS ou UDP|
+|Mauve clair |traffic TCP |
+|Gris |paquet TCP avec un drapeau SYN ou FIN|
+|Rouge |paquet TCP avec un drapeau RTS|
+|Noire |paquet TCP avec un problème(souvent un numéro de séquence désordonné)|
+|Vert clair |trafic HTTP |
+|Bleu clair |trafic DNS ou UDP|
 
 
 ### Interface
 
-L'interface se divise en trois parties. La première partie, qui correspond aux paquets reçus:
+L'interface se divise en trois parties. La première partie, qui correspond aux paquets reçus :
 
 ![Interface Wireshark](learning-md/network/wireshark-paquets.png)
 
-On voit sur cette partie qu'on a déjà plusieurs informations d'affichées. On a l'adresse ip source et destination, le protocole que le paquet utilise, la longueur de sa donnée et une petite information supplémentaire de celui-ci.
+On voit sur cette partie qu'on a déjà plusieurs informations à afficher. On a l'adresse ip source et destination, le protocole que le paquet utilise, la longueur de sa donnée et une petite information supplémentaire de celui-ci.
 
-Pour plus de détail sur un paquet, en le selectionant dans la première partie on a tout un tas d'informations supplémentaire dans cette deuxième partie:
+Pour plus de détail sur un paquet, en le sélectionnant dans la première partie, on a tout un tas d'informations supplémentaires dans cette deuxième partie :
 
 ![Interface Wireshark](learning-md/network/wireshark-detail.png)
 
-Enfin dans la dernière partie on a l'affichage de la donné du paquet selectionné précédement:
+Enfin, dans la dernière partie, on a l'affichage de la donné du paquet selectionné précédement:
 
 ![Interface Wireshark](learning-md/network/wireshark-hexa.png)
 
-La documentation complète de l'outil est disponible [ici](https://www.wireshark.org/docs/)
+La documentation complète de l'outil est disponible. [ici](https://www.wireshark.org/docs/)
