@@ -37,15 +37,16 @@ Les documents HTML commenceront toujours avec "`&lt;!DOCTYPE html&gt;`" permetta
 
 **Balises orphelines**  
 Les balises orphelines sont des balises qui qui n'ont as besoin d'être "fermé"(ex: "`&lt;br&gt;`" pour un retour chariot).Elles servent aussi le plus souvent à insérer un élément à un endroit précis (ex: une image). Il n'est pas nécessaire de délimiter le début et la fin de l'image, on veut juste dire à l'ordinateur « Insère une image ici ».
-```html```
-```   &lt;img /&gt; &lt;!-- insere une image, en spécifiant le fichier dans l'attribut "src" --&gt;```
+
+	html
+	   &lt;img /&gt; &lt;!-- insere une image, en spécifiant le fichier dans l'attribut "src" --&gt;
 
 ### Attributs
 
 Les attributs sont un peu les options des balises. Ils viennent les compléter pour donner des informations supplémentaires. L'attribut se place après le nom de la balise ouvrante et a le plus souvent une valeur, comme ceci :
 
-```html```
-```    &lt;img src="photo.jpg" /&gt;```
+	html
+	    &lt;img src="photo.jpg" /&gt;
 
 Dans ce cas de figure, l'attribut "src" permet d'indiquer l'image à afficher. L'ordinateur comprend alors qu'il doit afficher l'image qui est compris dans le fichier "photo.jpg".
 
@@ -53,30 +54,31 @@ Dans ce cas de figure, l'attribut "src" permet d'indiquer l'image à afficher. L
 ### Balises fréquentes
 
 `&lt;h1&gt;, &lt;h2&gt;, &lt;h3&gt;, &lt;h4&gt;, &lt;h5&gt;, &lt;h6&gt;`  
-> Ces balises permetttent de définir des titres de différents niveaux : h1 pour les grands titres et h6 pour les titres des sections très spécifiques.  
+Ces balises permetttent de définir des titres de différents niveaux : h1 pour les grands titres et h6 pour les titres des sections très spécifiques.  
 
 `&lt;p&gt;`  
-> La balise utilisée pour créer des paragraphes. Ces paragraphes sont généralement (automatiquement) séparés par des sauts de ligne.
+La balise utilisée pour créer des paragraphes. Ces paragraphes sont généralement (automatiquement) séparés par des sauts de ligne.
 
 `&lt;a&gt;`  
-&gt; Cette balise est utilisée afin de créer des liens vers des ressources externes : une autre page web, un e-mail, une image, une autre section du document, etc. Les balises `&lt;a&gt;` contiennent le texte qui sera utilisé pour le lien, l'attribut "href" de cet élément est utilisé pour définir l'URL cible : `&lt;a href="url_cible"&gt;du texte qui sera lu par l'utilisateur&lt;/a&gt;`.
+Cette balise est utilisée afin de créer des liens vers des ressources externes : une autre page web, un e-mail, une image, une autre section du document, etc. Les balises `&lt;a&gt;` contiennent le texte qui sera utilisé pour le lien, l'attribut "href" de cet élément est utilisé pour définir l'URL cible : `&lt;a href="url_cible"&gt;du texte qui sera lu par l'utilisateur&lt;/a&gt;`.
 
 `&lt;img&gt;`  
-&gt; On a déjà vu cette balise plus haut, mais petit rappel. Cette balise permet d'intégrer une image dans un document HTML. Voici un exemple d'utilisation : `&lt;img src="url/vers/mon/image.png" alt="Une description de l'image"&gt;`
+On a déjà vu cette balise plus haut, mais petit rappel. Cette balise permet d'intégrer une image dans un document HTML. Voici un exemple d'utilisation : `&lt;img src="url/vers/mon/image.png" alt="Une description de l'image"&gt;`
 
 `&lt;div&gt;`  et  `&lt;span&gt;`  
-&gt; Ces balises n'ont pas de signification particulière, elles permettent simplement de séparer des sections d'un document. La plupart du temps, ces balises sont utilisées pour la mise en forme (ou la structure).
+Ces balises n'ont pas de signification particulière, elles permettent simplement de séparer des sections d'un document. La plupart du temps, ces balises sont utilisées pour la mise en forme (ou la structure).
 
 `&lt;ul&gt;, &lt;ol&gt;` et `&lt;li&gt;`
-&gt;Ces balises sont utilisées pour créer des listes. `&lt;ul&gt;` permet de définir une liste non-ordonnée et `&lt;ol&gt;` de définir une liste ordonnée. Pour chacune de ces listes, ce sera la balise  `&lt;li&gt;` qui permettra de définir un élément de la liste. 
+Ces balises sont utilisées pour créer des listes. `&lt;ul&gt;` permet de définir une liste non-ordonnée et `&lt;ol&gt;` de définir une liste ordonnée. Pour chacune de ces listes, ce sera la balise  `&lt;li&gt;` qui permettra de définir un élément de la liste. 
 
-&gt;Voici un exemple de liste avec `&lt;ul&gt;` :
-```html```
-```&lt;ul&gt;```
-```   &lt;li&gt;Café&lt;/li&gt;```
-```   &lt;li&gt;Thé&lt;/li&gt;```
-```   &lt;li&gt;Lait&lt;/li&gt;```
-```&lt;/ul&gt;```
+Voici un exemple de liste avec `&lt;ul&gt;` :
+
+	html
+	&lt;ul&gt;
+	   &lt;li&gt;Café&lt;/li&gt;
+	   &lt;li&gt;Thé&lt;/li&gt;
+	   &lt;li&gt;Lait&lt;/li&gt;
+	&lt;/ul&gt;
 
 ----------
 ----------
@@ -94,63 +96,65 @@ Lorsqu'un visiteur demande à consulter une page de site web, son navigateur env
 Un script PHP peu être placer n'importe ou dans le document (souvent HTML). Un script commence par la balise `&lt;?php` et finit par `?&gt;`. En PHP les varibles commence par le symbole dollars "$" suivit du nom de la variable, puis le contenu de celle-ci.  
 
 **Syntaxe basique du PHP**
-```php```
-```&lt;!DOCTYPE html&gt;```
-```&lt;html&gt;```
-```&lt;body&gt;```
-```    &lt;h1&gt;Premier code PHP&lt;/h1&gt;```
-```    &lt;?php```
-```      echo "Hello World";                 // ce texte sera affiché sur le navigateur```
 
-```      $prenomBob = "Bob";                 // assigne du texte dans la varible : "$prenomBob"```
-```      echo "Bienvenue " . $prenomBob;     // affiche le texte & la variable concecutivement```
-```    ?&gt;```
-```&lt;/body&gt;```
-```&lt;/html&gt;```
+	php
+	&lt;!DOCTYPE html&gt;
+	&lt;html&gt;
+	&lt;body&gt;
+	    &lt;h1&gt;Premier code PHP&lt;/h1&gt;
+	    &lt;?php
+	      echo "Hello World";                 // ce texte sera affiché sur le navigateur
+
+	      $prenomBob = "Bob";                 // assigne du texte dans la varible : "$prenomBob"
+	      echo "Bienvenue " . $prenomBob;     // affiche le texte & la variable concecutivement
+	    ?&gt;
+	&lt;/body&gt;
+	&lt;/html&gt;
 
 **Fonctions PHP**  
 Il existe tout un tas de fonctions pré-définis en PHP, mais si l'utilisateur souhaite en créer une, voici là syntaxe:
 
-```php```
-```&lt;?php```
-```   function writeMsg() {       // crée la fonction```
-```    echo "Hello world!";       // code here...```
-```   }```
- 
-```   writeMsg();                 // appelle la fonction```
-``` ?&gt;```
+	php
+	&lt;?php
+	   function writeMsg() {       // crée la fonction
+	    echo "Hello world!";       // code here...
+	   }
+	 
+	   writeMsg();                 // appelle la fonction
+	?&gt;
 
 ### Formulaires
 Voici un formulaire basique HTML avec deux champs à remplir et un bouton pour valider
-```html```
-```&lt;html&gt;```
-```&lt;body&gt;```
 
-```&lt;form action="welcome.php" method="post"&gt;          &lt;!-- methode "post" utilisé --&gt;```
-```    Name: &lt;input type="text" name="name"&gt;&lt;br&gt;```
-```    E-mail: &lt;input type="text" name="email"&gt;&lt;br&gt;```
-```    &lt;input type="submit"&gt;```
-```&lt;/form&gt;```
-
-```&lt;/body&gt;```
-```&lt;/html&gt;```
+	html
+	&lt;html&gt;
+	&lt;body&gt;
+	
+	&lt;form action="welcome.php" method="post"&gt;          &lt;!-- methode "post" utilisé --&gt;
+	    Name: &lt;input type="text" name="name"&gt;&lt;br&gt;
+	    E-mail: &lt;input type="text" name="email"&gt;&lt;br&gt;
+	    &lt;input type="submit"&gt;
+	&lt;/form&gt;
+	
+	&lt;/body&gt;
+	&lt;/html&gt;
 
 Lorsque l'on appuie sur le bouton "submit", le formulaire va rediriger vers une page PHP: "welcome.php"
 
-```php```
-```&lt;html&gt;```
-```&lt;body&gt;```
-
-```Welcome &lt;?php echo $_POST["name"]; ?&gt;&lt;br&gt;```
-```Your email address is: &lt;?php echo $_POST["email"]; ?&gt;```
-
-```&lt;/body&gt;```
-```&lt;/html&gt;```
+	php
+	&lt;html&gt;
+	&lt;body&gt;
+	
+	Welcome &lt;?php echo $_POST["name"]; ?&gt;&lt;br&gt;
+	Your email address is: &lt;?php echo $_POST["email"]; ?&gt;
+	
+	&lt;/body&gt;
+	&lt;/html&gt;
 
 Si "`John`" est remplie dans le champ "name" et "`john.doe@example.com`" dans "email", alors il sera affiché sur la page "Welcome.php" : 
 
-&gt;`Welcome John`   
-&gt;`Your email address is: john.doe@example.com`
+	&gt;`Welcome John`   
+	&gt;`Your email address is: john.doe@example.com`
 
 ### Methode : GET vs POST
 
@@ -174,21 +178,21 @@ La methode GET peut-être dangeureuse si mal utilisé, il est faut impérativeme
 Pour verifier si un champ est vide, afin d'afficher les bonnes informations ou non, on utilise la fonction "empty()".  
 Exemple, ci-dessous:   
 
-```php```
-```&lt;!-- Sera présent dans le code de la page "Welcome.php" --&gt;```
-```&lt;?php```
-```    if (empty($_POST["name"])) {      // verifie si champ est vide```
-```        echo "Name is required"; }    // si vide alors erreur```
-```    else {                            // sinon```
-```        $name = $_POST["name"];       // affiche le nom```
-```        echo $name; }```
-
-```    if (empty($_POST["email"])) {     // verifie si champ est vide```
-```        echo "Email is required"; }   // si vide alors erreur```
-```     else {```
-```        $email = $_POST["email"];     // affiche email```
-```        echo $email; }```
-```?&gt;```
+	php
+	&lt;!-- Sera présent dans le code de la page "Welcome.php" --&gt;
+	&lt;?php
+	    if (empty($_POST["name"])) {      // verifie si champ est vide
+	        echo "Name is required"; }    // si vide alors erreur
+	    else {                            // sinon
+	        $name = $_POST["name"];       // affiche le nom
+	        echo $name; }
+	
+	    if (empty($_POST["email"])) {     // verifie si champ est vide
+	        echo "Email is required"; }   // si vide alors erreur
+	     else {
+	        $email = $_POST["email"];     // affiche email
+	        echo $email; }
+	?&gt;
 
 ------------------
 ------------------
