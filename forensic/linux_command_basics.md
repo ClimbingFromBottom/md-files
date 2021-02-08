@@ -1,13 +1,6 @@
----
-title: "Command Linux Ubuntu - basics"  
-date: 2021-02-02  
-draft: false  
-
----  
-
 # Linux - les commandes de bases
 
-## A connaitre pas coeur
+## A connaitre par coeur
 ### man
 La commande 'man' correspond à 'manuel' et permet de comprendre le fonctionnement de la commande suivant 'man'.   
 Structure : ```man <command>``` affiche les informations pour l'utilisation de la <command>  

@@ -1,22 +1,17 @@
----
-title: "Registre"
-date: 2020-02-26T13:58:15Z
-draft: false
----
-
-La base de registre est un élément fondamental du système. C'est une gigantesque base de données qui peut atteindre plusieurs dizaines de méga. Afin de faciliter la gestion de cette base, celle ci est organisée en 5 clés principales, elles mêmes divisées en sous clés.
+# Registre
+La base de registre est un élément fondamental du système. C'est une gigantesque base de données qui peut atteindre plusieurs dizaines de mégas. Afin de faciliter la gestion de cette base, celle ci est organisée en 5 clés principales, elles-mêmes divisées en sous-clé.
 
 ## Les 5 clés et leurs fonctions
 
 ### HKEY_CLASS_ROOT :
 
-Cette clé gère les extensions des fichiers ainsi que les liaisons avec les logiciels et serveurs ActiveX. Toutes les extensions des fichiers et leur programme correspondant sont gérés ici. Lorsque vous cliquez sur un document ayant une extension .xls par exemple, Windows saura qu'il devra charger Excel pour ouvrir le fichier.
+Cette clé gère les extensions des fichiers ainsi que les liaisons avec les logiciels et serveurs ActiveX. Toutes les extensions des fichiers et leur programme correspondant sont gérés ici. Lorsque vous cliquez sur un document ayant une extension.xls par exemple, Windows saura qu'il devra charger Excel pour ouvrir le fichier.
 
-Certains menus contextuels sont également gérés ici, de même que les composants communs de Windows et les Dll et Exe Active X, les contrôles complémentaires, etc. Si les inscriptions de ces composants sont modifiés, vous pouvez au pire en plus pouvoir vous servir du programme qui en a besoin.
+Certains menus contextuels sont également gérés ici, de même que les composants communs de Windows et les Dll et Exe Active X, les contrôles complémentaires, etc. Si les inscriptions de ces composants sont modifiées, vous pouvez au pire en plus pouvoir vous servir du programme qui en a besoin.
 
 /CLSID : Gestion des identificateurs de classe des objets COM
 
-/Extension : Cette clé gère les extensions de fichiers. Certaines extensions ne figurent cependant pas dans cette clé, il faut alors regarder du côté du type de fichier
+/Extension : Cette clé gère les extensions de fichiers. Certaines extensions ne figurent cependant pas dans cette clé, il faut alors regarder du côté du type de fichier.
 
 /Applications : Cette clé gère certains menus contextuels.
 
@@ -30,7 +25,7 @@ Certains menus contextuels sont également gérés ici, de même que les composa
 
 Cette clé contient toutes les informations de l'utilisateur connecté (celui qui utilise le PC) : paramètres des dossiers et couleurs d'écran et du panneau de configuration. C'est une sous clé de HKEY_USERS
 
-/AppEvents : Cette clé contient les événements systèmes et leurs sons correspondants (allez jeter un oeil dans le panneau de configuration > sons et périphériques audio > sons)
+/AppEvents : Cette clé contient les événements systèmes et leurs sons correspondants (allez jeter un oeil dans le panneau de configuration > sons et périphériques audio > sons.)
 
 /EventLabels : Ce sont les événements système.
 
@@ -40,7 +35,7 @@ Cette clé contient toutes les informations de l'utilisateur connecté (celui qu
 
 /Printers : Ce sont les paramètres d'impression et de l'assistant d'ajout d'imprimante.
 
-/Software : Ce sont les paramètres de certains composants des programmes ou du système d'exploitation
+/Software : Ce sont les paramètres de certains composants des programmes ou du système d'exploitation.
 
 ### HKEY_LOCAL_MACHINE :
 
@@ -50,7 +45,7 @@ Ces paramètres peuvent se changer lors de la modification d'un paramètre dans 
 
 /Software/Classes : Cette clé est une copie intégrale de la clé HKEY_CLASSES_ROOT.
 
-/Hardware : Cette clé contient toutes les informations sur le processeur, la taille de la mémoire et la gestion Plug and play de Windows. Les données sont initialisées à chaque démarrage, une modification des valeurs est donc inutile (non, vous n'aurez jamais un Pentium 4 à 10 Ghz !)
+/Hardware : Cette clé contient toutes les informations sur le processeur, la taille de la mémoire et la gestion Plug and play de Windows. Les données sont initialisées à chaque démarrage, une modification des valeurs est donc inutile. (non, vous n'aurez jamais un Pentium 4 à 10 Ghz !)
 
 /Software : Cette clé contient les informations sur les applications et les composants systèmes de windows.
 
@@ -58,7 +53,7 @@ Ces paramètres peuvent se changer lors de la modification d'un paramètre dans 
 
 /CurrentControlSet : Paramètres du système et des services (voir l'article consacré aux services)
 
-/Control/ComputerName : C'est le nom de votre ordinateur (visible dans le réseau)
+/Control/ComputerName : C'est le nom de votre ordinateur. (visible dans le réseau)
 
 ### HKEY_USERS :
 
@@ -83,3 +78,4 @@ REG_MULTI_DZ : Ce sont des chaînes multiples qui contiennent des successions ou
 REG_SZ : C'est une chaîne texte de longueur fixe.
 
 REG_FULL_RESOURCE_DESCRIPTOR : Ce type de données qui ne s'applique qu'à Windows XP contient des tableaux imbriqués stockant une liste de ressources correspondant à un matériel ou à un pilote.
+
