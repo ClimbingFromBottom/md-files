@@ -2,8 +2,6 @@
 
 ## HTML & CSS
 
-### TEST
-
 **HTML**  
 HyperText Markup Language a fait son apparition dès _1991_ lors du lancement du Web. Son rôle est de gérer et organiser le contenu. C'est l'HTML qui permet d'écrire ce qui doit être affiché sur la page (exemple: le texte, les liens, les images…).  
 
@@ -24,8 +22,6 @@ Cascading Style Sheets, aussi appelées Feuilles de style, permet de gérer l'ap
 	    &lt;p&gt;Ceci est un paragraphe sur la page.&lt;/p&gt;
 	&lt;/body&gt;
 	&lt;/html&gt;
-
-### test
 
 ### Balises & Attributs
 
