@@ -23,6 +23,7 @@ Cascading Style Sheets, aussi appelées Feuilles de style, permet de gérer l'ap
 	&lt;/body&gt;
 	&lt;/html&gt;
 
+
 ### Balises & Attributs
 
 Les pages HTML sont remplies de ce qu'on appelle des balises. Celles-ci sont invisibles à l'écran pour vos visiteurs, mais elles permettent à l'ordinateur de comprendre ce qu'il doit afficher.
