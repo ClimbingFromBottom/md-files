@@ -11,7 +11,7 @@ Cascading Style Sheets, aussi appelées Feuilles de style, permet de gérer l'ap
 **Structure HTML basique**
 ```html```
 ```\<!DOCTYPE html\>```
-```<html>```
+```%3Chtml%3E```
 ```<head>```
 ```    <!-- Ceci est un commentaire  -->```
 ```    <title>Titre onglet</title>```
