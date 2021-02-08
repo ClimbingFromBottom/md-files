@@ -2,6 +2,8 @@
 
 ## HTML & CSS
 
+### TEST
+
 **HTML**  
 HyperText Markup Language a fait son apparition dès _1991_ lors du lancement du Web. Son rôle est de gérer et organiser le contenu. C'est l'HTML qui permet d'écrire ce qui doit être affiché sur la page (exemple: le texte, les liens, les images…).  
 
@@ -23,20 +25,21 @@ Cascading Style Sheets, aussi appelées Feuilles de style, permet de gérer l'ap
 	&lt;/body&gt;
 	&lt;/html&gt;
 
+### test
 
 ### Balises & Attributs
 
 Les pages HTML sont remplies de ce qu'on appelle des balises. Celles-ci sont invisibles à l'écran pour vos visiteurs, mais elles permettent à l'ordinateur de comprendre ce qu'il doit afficher.
-Les balises se repèrent facilement. Elles sont entourées de « chevrons », c'est-à-dire des "`&lt;`" et "`&gt;`", comme ceci : "`&lt;nom_balise&gt;`". Il existe aussi la possibilité de mettre des attribut dans les balises. On distingue deux types de balises : les balises en paires et les balises orphelines.   
+Les balises se repèrent facilement. Elles sont entourées de « chevrons », c'est-à-dire des '`&lt;`' et '`&gt;`', comme ceci : '`&lt;nom_balise&gt;`'. Il existe aussi la possibilité de mettre des attribut dans les balises. On distingue deux types de balises : les balises en paires et les balises orphelines.   
 
 ### Balises
 
-**Balise paires**  
+**Balise paires**
 Elle se compose de deux balises. Une au début appelé balise ouvrante, et une à la fin appelé balise fermante, qui indique que la balise se termine. Ainsi tout ce qui est contenu entre les balises appartient aux balises.   
 
 Les documents HTML commenceront toujours avec "`&lt;!DOCTYPE html&gt;`" permettant de spécifier le type du document pour les navigateurs. Par la suite dans le document HTML lui-même, il y aura en début de document une balise "`&lt;html&gt;`" et "`&lt;/html&gt;`" à la fin. La partie visible du document HTML est contenue entre les balises "`&lt;body&gt;`" et "`&lt;/body&gt;`"
 
-**Balises orphelines**  
+**Balises orphelines**
 Les balises orphelines sont des balises qui qui n'ont as besoin d'être "fermé"(ex: "`&lt;br&gt;`" pour un retour chariot).Elles servent aussi le plus souvent à insérer un élément à un endroit précis (ex: une image). Il n'est pas nécessaire de délimiter le début et la fin de l'image, on veut juste dire à l'ordinateur « Insère une image ici ».
 
 	html
