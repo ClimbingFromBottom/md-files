@@ -9,18 +9,18 @@ HyperText Markup Language a fait son apparition dès _1991_ lors du lancement du
 Cascading Style Sheets, aussi appelées Feuilles de style, permet de gérer l'apparence de la page web (agencement, positionnement, décoration, couleurs, taille du texte…). Ce langage est venu compléter le HTML en _1996_.
 
 **Structure HTML basique**
-``html``
-``&&lt;!DOCTYPE html&gt;``
-``&lt;html&gt;``
-``&lt;head&gt;``
-``    &lt;!-- Ceci est un commentaire  --&gt;``
-``    &lt;title&gt;Titre onglet&lt;/title&gt;``
-``&lt;/head&gt;``
-``&lt;body&gt;``
-``    &lt;h1&gt;Titre important dans la page web&lt;/h1&gt;``
-``    &lt;p&gt;Ceci est un paragraphe sur la page.&lt;/p&gt;``
-``&lt;/body&gt;``
-``&lt;/html&gt;``
+```html
+&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+    &lt;!-- Ceci est un commentaire  --&gt;
+    &lt;title&gt;Titre onglet&lt;/title&gt;
+&lt;/head&gt;
+&lt;body&gt;
+    &lt;h1&gt;Titre important dans la page web&lt;/h1&gt;
+    &lt;p&gt;Ceci est un paragraphe sur la page.&lt;/p&gt;
+&lt;/body&gt;
+&lt;/html&gt;```
 
 ### Balises & Attributs
 
@@ -52,10 +52,10 @@ Dans ce cas de figure, l'attribut "src" permet d'indiquer l'image à afficher. L
 ### Balises fréquentes
 
 `&lt;h1&gt;, &lt;h2&gt;, &lt;h3&gt;, &lt;h4&gt;, &lt;h5&gt;, &lt;h6&gt;`  
-&gt; Ces balises permetttent de définir des titres de différents niveaux : h1 pour les grands titres et h6 pour les titres des sections très spécifiques.  
+> Ces balises permetttent de définir des titres de différents niveaux : h1 pour les grands titres et h6 pour les titres des sections très spécifiques.  
 
 `&lt;p&gt;`  
-&gt; La balise utilisée pour créer des paragraphes. Ces paragraphes sont généralement (automatiquement) séparés par des sauts de ligne.
+> La balise utilisée pour créer des paragraphes. Ces paragraphes sont généralement (automatiquement) séparés par des sauts de ligne.
 
 `&lt;a&gt;`  
 &gt; Cette balise est utilisée afin de créer des liens vers des ressources externes : une autre page web, un e-mail, une image, une autre section du document, etc. Les balises `&lt;a&gt;` contiennent le texte qui sera utilisé pour le lien, l'attribut "href" de cet élément est utilisé pour définir l'URL cible : `&lt;a href="url_cible"&gt;du texte qui sera lu par l'utilisateur&lt;/a&gt;`.
