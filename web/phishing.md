@@ -69,6 +69,11 @@ Aujourd'hui, et quel que soit le navigateur Internet que vous utilisez, vous ave
 Les cookies Tiers sont au contraire des cookies Internes, utilisé à des fins publlicitaire.
 
 
+## Exemple de phiphing pour un compte facebook
+
+[**Page d'exemple de phishing**](learning-md/web/facebook)
+
+
 ------
 
 
