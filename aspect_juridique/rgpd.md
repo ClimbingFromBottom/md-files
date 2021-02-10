@@ -2,9 +2,6 @@
 
 ![RGPD](https://raw.githubusercontent.com/ClimbingFromBottom/md-files/main/images/rgpd/rgpd-logo.png)
 
-**Trois principes fondamentaux :**
-![RGPD principes](https://raw.githubusercontent.com/ClimbingFromBottom/md-files/main/images/rgpd/rgpd-principe.png)
-
 ## Donnée personnelle
 
 **La notion de « données personnelles » est à comprendre de façon très large**. Une « donnée personnelle » est *« toute information se rapportant à une personne physique identifiée ou identifiable ».*
@@ -27,6 +24,10 @@ Un traitement de données doit avoir **un objectif, une finalité**, c’est-à-
 
 **Exemple :**  
 Vous collectez sur vos clients de nombreuses informations, lorsque vous effectuez une livraison, éditez une facture ou, proposez une carte de fidélité. Toutes ces opérations sur ces données constituent votre traitement de données personnelles ayant pour objectif la gestion de votre clientèle.
+
+
+**Trois principes fondamentaux :**
+![RGPD principes](https://raw.githubusercontent.com/ClimbingFromBottom/md-files/main/images/rgpd/rgpd-principe.png)
 
 -------------------------------------------------
  
@@ -65,15 +66,15 @@ En tant que responsable du traitement de ces données, ou bien en tant que sous-
 
 Pour ce faire, quelques règles fondamentales s’imposent :
 
-1. Avant tout processus de traitement de données, posez-vous les bonnes questions, à savoir : **est-ce réellement nécessaire** dans le cadre de mon activité ? Quelles sont les données indispensables et celles qui ne le sont pas ? Est-ce bien pertinent de collecter ces données et en ai-je le droit ? **Les personnes concernées ont-elles été correctement informées** et ont-elles explicitement donné leur accord ?  
+- Avant tout processus de traitement de données, posez-vous les bonnes questions, à savoir : **est-ce réellement nécessaire** dans le cadre de mon activité ? Quelles sont les données indispensables et celles qui ne le sont pas ? Est-ce bien pertinent de collecter ces données et en ai-je le droit ? **Les personnes concernées ont-elles été correctement informées** et ont-elles explicitement donné leur accord ?  
 
-2. Le RGPD implique une **totale transparence** quant à l’utilisation des données collectées. Les personnes faisant l’objet d’une collecte de données doivent pouvoir vous faire confiance.
+- Le RGPD implique une **totale transparence** quant à l’utilisation des données collectées. Les personnes faisant l’objet d’une collecte de données doivent pouvoir vous faire confiance.
 
-3. Vous devez être en mesure de répondre, dans les meilleurs délais, aux demandes des utilisateurs concernés quant à leurs droits de consultation, de rectification, de transmission, mais également de suppression définitive de leurs données.
+- Vous devez être en mesure de répondre, dans les meilleurs délais, aux demandes des utilisateurs concernés quant à leurs droits de consultation, de rectification, de transmission, mais également de suppression définitive de leurs données.
 
-4. Votre société doit, après avoir identifié les risques, être en mesure d’assurer un partage et une circulation encadrés des données personnelles, afin de leur assurer une protection optimale, tout au long du processus de traitement. Des mesures spécifiques doivent être prises si les données concernées sont dites sensibles (relatives à des opinions politiques, une origine raciale, une orientation sexuelle, etc).
+- Votre société doit, après avoir identifié les risques, être en mesure d’assurer un partage et une circulation encadrés des données personnelles, afin de leur assurer une protection optimale, tout au long du processus de traitement. Des mesures spécifiques doivent être prises si les données concernées sont dites sensibles (relatives à des opinions politiques, une origine raciale, une orientation sexuelle, etc).
 
-5. Gardez bien à l’esprit que les mesures de sécurité doivent être adaptées en fonction des risques qui pèsent sur les personnes concernées en cas d’exploitation non consentie de leurs données personnelles. Ces mesures de sécurité, informatiques comme physiques, doivent permettre la totale sécurité de ces données à risque.
+- Gardez bien à l’esprit que les mesures de sécurité doivent être adaptées en fonction des risques qui pèsent sur les personnes concernées en cas d’exploitation non consentie de leurs données personnelles. Ces mesures de sécurité, informatiques comme physiques, doivent permettre la totale sécurité de ces données à risque.
 
 -----------------
 
