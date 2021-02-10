@@ -8,7 +8,7 @@ C'est un logiciel multi-plateforme utilisable sous Linux, Windows et Mac. Capabl
 
 ![Interface Wireshark](https://raw.githubusercontent.com/ClimbingFromBottom/md-files/main/images/wireshark/wireshark-interface.png)
 
-### Code couleur
+## Code couleur
 
 Comme vous pouvez le voir sur le figure précédente, Wireshark utilise un code couleur:
 
@@ -22,7 +22,7 @@ Comme vous pouvez le voir sur le figure précédente, Wireshark utilise un code 
 |Bleu clair |trafic DNS ou UDP|
 
 
-### Interface
+## Interface
 
 L'interface se divise en trois parties. La première partie, qui correspond aux paquets reçus :
 
