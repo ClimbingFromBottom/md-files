@@ -71,7 +71,6 @@ Pour plus de commodité et de clarté, la représentation d'une adresse IPv6 peu
 
 * Les sections consécutives de zéros sont remplacées par deux deux-points "::". Cela ne peut être utilisé qu'une seule fois dans une adresse, car une utilisation multiple rendrait l'adresse indéterminée. La RFC 5952 requiert qu'un double-point ne soit pas utilisé pour indiquer une seule section omise de zéros. En appliquant ses règles, l'adresse IPv6 devient:
 
-```
 Adresse IPV6 initiale:
 > 2001: 0db8: 0000: 0000: 0000: ff00: 0042: 8329
 
@@ -80,7 +79,7 @@ Après avoir supprimé tous les zéros non significatifs de chaque groupe:
  
 Après avoir omis les sections consécutives de zéros:
 > 2001:db8::ff00:42:8329
-```
+
 L'adresse de "bouclage" (loopback, en anglais) `0000: 0000: 0000: 0000: 0000: 0000: 0000: 0001` est abrégée en `::1` en utilisant les deux règles.
 
 
