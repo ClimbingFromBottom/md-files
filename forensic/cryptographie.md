@@ -4,7 +4,7 @@ Historiquement, la cryptologie correspond à **la science du secret**, c'est-à-
 
 ## Les grands principes
 
-La cryptologie ne se limite plus aujourd’hui à assurer la **confidentialité** des secrets. Elle s’est élargie au fait d’assurer mathématiquement d’autres notions : assurer **l’authenticité** d’un message (qui a envoyé ce message ?) ou d'en assurer son **intégrité** (est-ce qu’il a été modifié ?) ou encore sa **non-repudiation** (mécanisme qui permet d'enregistrer un engagement d’une entité de telle sorte que celle-ci ne puisse pas nier avoir accompli accompli / pris cet engagement.)
+La cryptologie ne se limite plus aujourd’hui à assurer la **confidentialité** des secrets. Elle s’est élargie au fait d’assurer mathématiquement d’autres notions : assurer **l’authenticité** d’un message (qui a envoyé ce message ?) ou d'en assurer son **intégrité** (est-ce que le fichier a été modifié ?) ou encore sa **non-repudiation** (mécanisme qui permet d'enregistrer l'engagement d’une entité; de telle sorte que celle-ci ne puisse nier avoir accompli / pris ledit engagement.)
 
 1. **L'intégrité**
 
@@ -41,7 +41,7 @@ Il existe deux grandes familles de chiffrement : le **chiffrement symétrique** 
 
 Le chiffrement symétrique permet de chiffrer et de déchiffrer un contenu avec la même clé, appelée alors la **« clé secrète »**. Le chiffrement symétrique est particulièrement rapide mais nécessite que l’émetteur et le destinataire se mettent d’accord sur une clé secrète commune ou se la transmettent par un autre canal. Celui-ci doit être **choisi avec précautions**, sans quoi la clé pourrait être récupérée par les mauvaises personnes, ce qui n’assurerait plus la confidentialité du message. 
 
-[!] AJOUTER IMAGE ICI
+!Chiffrement symetrique](https://raw.githubusercontent.com/ClimbingFromBottom/md-files/main/images/cryptographie/chifrement_symetrique.png)
 
 Parmis les algorithmes de chiffrement symétrique les plus utilisés, on retrouve :
 - [DES](https://fr.wikipedia.org/wiki/Data_Encryption_Standard) (Data Encryption Standard)
@@ -63,10 +63,32 @@ Dans ce cas où l’émetteur (Alice) utilise la clé publique du destinataire (
 
 Parmi ses avantages, la clé publique peut être connue de tous et publiée. Mais attention : il est nécessaire que les émetteurs aient confiance en l’origine de la clé publique, qu’ils soient sûrs qu’il s’agit bien de celle du destinataire.
 
-[!] AJOUTER IMAGE ICI
-[!] AJOUTER IMAGE ICI
-[!] AJOUTER IMAGE ICI
-[!] AJOUTER IMAGE ICI
+Clé publique
+Clé privée = Clé secrète
+
+**Prenons l'exemple** d'Alice, qui souhaite recevoir un message chiffré de la part de Betty. Pour cela, Alice envoie à Betty un cadenas ouvert; dont seul Alice possède la clé du cadenas.    
+Autrement dit, Alice envoie sa **clé publique** à Betty. Et garde secrète sa clé privée.
+
+![Alice envoie sa clé publique à Betty](https://raw.githubusercontent.com/ClimbingFromBottom/md-files/main/images/cryptographie/01_alice_envoie_sa_clef.png)
+
+Betty écrit un message et place celui-ci dans une boite; Boite qu'elle ferme avec le cadenas qu'Alice lui a envoyé.   
+
+**/!\ Remarque** : On a pas beosin de posséder la clé d'un cadenas pour le fermer.
+
+![Betty chiffre un message](https://raw.githubusercontent.com/ClimbingFromBottom/md-files/main/images/cryptographie/02_bob_chiffre_le_msg.png)
+
+Une fois qui Betty a fermée la boite, elle va l'envoyé à Alice. Le message ne craint rien, puisqu'il est dans une boite que personne ne peut ouvrir (grace au cadenas). 
+
+![Betty envoie un message chiffré à Alice](https://raw.githubusercontent.com/ClimbingFromBottom/md-files/main/images/cryptographie/03_bob_envoie_msg_chiffre.png)
+
+**/!\ Note:** Cette boite ne peut etre ouverte que par Alice, car elle seule possède la clé du cadenas.
+
+Alice recoit la boite avec le cadenas contenant le message de Betty. Elle peut ouvrir cette boite grace à la clé qu'elle possede (**clé privée**) et ainsi, lire le message que contient la boite.
+
+![Alice déchiffre le message](https://raw.githubusercontent.com/ClimbingFromBottom/md-files/main/images/cryptographie/04_alice_dechiffre_le_msg.png)
+
+**/!\ Remarque** : Avec la cryptographie asymétrique, la seule chose qui circule sur le réseau est "un cadenas ouvert" puis "une boite avec un cadenas fermé". Si une personne mal intentionnée intercepte le cadenas ouvert, rien de grave puisque cela ne lui permettra jamais d'ouvrir le cadenas fermé.
+
 
 ### Casser un chiffrement
 
@@ -110,6 +132,8 @@ Pour en savoir plus sur l'attaque par canal auxiliaire, cliquez [ici](https://fr
 
 Le principe est simple, même si la réalisation peut s’avérer plus compliquée. **L’attaquant se positionne au milieu de la conversation**, sans que ceux-ci ne soient au courant bien entendu. Chaque correspondant échange avec l’attaquant, pensant communiquer avec son correspondant autorisé, transmettant les clés secrètes et les messages.
 L’attaquant peut alors déchiffrer, voire modifier, les messages en toute discrétion.   
+
+![Man In The Middle](https://raw.githubusercontent.com/ClimbingFromBottom/md-files/main/images/cryptographie/MITM.png)
 
 Cette attaque met le doigt sur l’absolue nécessité de **transmettre les clés par un canal sûr**. Sans la clé, l’attaquant ne peut rien faire. 
 
