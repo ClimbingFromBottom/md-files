@@ -19,13 +19,13 @@ Au total, il existe 5 types de classes: A, B, C, D et E. Elle servent à adapter
 Dans la pratique, au début des années 2010, de nombreux matériels et logiciels se sont basés sur ce système de classe, y compris les algorithmes de routage des protocoles dit 'classless' (cf. Cisco CCNA Exploration - Protocoles et concepts de routage). Il est donc important de les connaitres.
 
 
-|Classe| Masque réseau  | Plage d'adresses réseau|         
-|----- |----------------|------------------------|          
-|A     | 255.0.0.0      | 0.0.0.0      ~      126.255.255.255|
-|B     | 255.255.0.0    | 128.0.0.0    ~      191.255.255.255|
-|C     | 255.255.255.0  | 192.0.0.0    ~      223.255.255.255|
-|D     | 240.0.0.0      | 224.0.0.0    ~      239.255.255.255|
-|E     | NA             | 240.0.0.0    ~      255.255.255.255|
+|Classe |Masque réseau|Plage d'adresses réseau|
+|-------|-------------|-----------------------|
+|A | 255.0.0.0     | 0.0.0.0 ~ 126.255.255.255|
+|B | 255.255.0.0   | 128.0.0.0 ~ 191.255.255.255|
+|C | 255.255.255.0 | 192.0.0.0 ~ 223.255.255.255|
+|D | 240.0.0.0     | 224.0.0.0 ~ 239.255.255.255|
+|E | NA            | 240.0.0.0 ~ 255.255.255.255|
 
 -----------------
 
