@@ -54,12 +54,12 @@ L'épuisement des adresses IPv4 a conduit au développement d'une nouvelle versi
 ### IPv4
 Les adresses IPv4 sont généralement représentées en notation **décimale**, composée de quatre nombres décimaux, chacun allant de 0 à 255, séparés par des points. Les adresses IPv4 sont codées sur 32 bits, ce qui limite à 4,3 x 10^+9 adresses possibles. Prenons l'adresse IPv4 suivante: `172.16.254.1`. Dans cette exemple, chaque partie séparé par un point, représente un groupe de 8 bits (un octet) de l'adresse. Dans certains cas d'écriture technique, les adresses IPv4 peuvent être présentées dans diverses représentations hexadécimales, octales ou binaires.   
 
-**Adresse IPv4 : notation décimale -> binaire**
+![IPv4 décimale binaire](learning-md/network/ip_address_ipv4.png)
+<!-- ~~**Adresse IPv4 : notation décimale -> binaire**
 |decimale (1 octet)|172 | 16 | 254 | 1|
 |--------|----|----|-----|----|
 |binaire (8 bits) | 10101100 | 00010000 | 11111110 | 00000001|
-
-On observe que la somme des 4 octets (4 * 8 = 32) que compose l'adresse IPv4 est de 32 bits. 
+On observe que la somme des 4 octets (4 * 8 = 32) que compose l'adresse IPv4 est de 32 bits.~~  -->
 
 ### IPv6
 Lors de la création de l'IPv4 à l'IPv6, la taille de l'adresse est passé de 32 à 128 bits. Permettant d'atteindre ainsi 3.4×10^+38 d'adresses  possibles, jugé suffisant pour l'avenir. Les 128 bits d'une adresse IPv6 sont représentés en 8 groupes de 16 bits chacun. Chaque groupe est écrit en quatre chiffres **hexadécimaux** et les groupes sont séparés par des deux-points ":"  
