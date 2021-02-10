@@ -53,23 +53,22 @@ Parmis les algorithmes de chiffrement symétrique les plus utilisés, on retrouv
 
 La cryptographie asymétrique résoud ce problème d'échange de clés.
 
-Elle se base sur le principe de deux clés : **publique** & **privée**
-- une publique (permettant le chiffrement)
-- une privée (permettant le déchiffrement)
+Elle se base sur le principe de deux clés : **publique** & **privée**   
+La clé publique permet le chiffrement, tandis que la clé privée permet le déchiffrement.
 
 Comme son nom l'indique, la clé publique est mise à la disposition pour quiconque désire chiffrer et envoyer un message. Ce dernier ne pourra être déchiffré qu'avec la clé privée, qui doit rester confidentielle.   
 
-Dans ce cas où l’émetteur (Alice) utilise la clé publique du destinataire (Bob) pour chiffrer le message tandis que le destinataire (Bob) utilise sa clé privée pour déchiffrer le message envoyé par Alice.   
+Dans ce cas où l’émetteur (Alice) utilise la clé publique du destinataire (Betty) pour chiffrer le message tandis que le destinataire (Betty) utilise sa clé privée pour déchiffrer le message envoyé par Alice.   
 
 Parmi ses avantages, la clé publique peut être connue de tous et publiée. Mais attention : il est nécessaire que les émetteurs aient confiance en l’origine de la clé publique, qu’ils soient sûrs qu’il s’agit bien de celle du destinataire.
 
-Clé publique
-Clé privée = Clé secrète
+#### Exemple : chiffrement asymétrique
 
-**Prenons l'exemple** d'Alice, qui souhaite recevoir un message chiffré de la part de Betty. Pour cela, Alice envoie à Betty un cadenas ouvert; dont seul Alice possède la clé du cadenas.    
-Autrement dit, Alice envoie sa **clé publique** à Betty. Et garde secrète sa clé privée.
+Prenons l'exemple d'Alice, qui souhaite recevoir un message chiffré de la part de Betty. Pour cela, Alice envoie à Betty un cadenas ouvert; dont seul Alice possède la clé du cadenas.    
 
 ![Alice envoie sa clé publique à Betty](https://raw.githubusercontent.com/ClimbingFromBottom/md-files/main/images/cryptographie/01_alice_envoie_sa_clef.png)
+
+Autrement dit, Alice envoie sa **clé publique** à Betty. Et garde secrète sa clé privée qui lui servira à ouvrir le cadenas plus tard.
 
 Betty écrit un message et place celui-ci dans une boite; Boite qu'elle ferme avec le cadenas qu'Alice lui a envoyé.   
 
