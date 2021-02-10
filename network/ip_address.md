@@ -54,7 +54,7 @@ L'épuisement des adresses IPv4 a conduit au développement d'une nouvelle versi
 ### IPv4
 Les adresses IPv4 sont généralement représentées en notation **décimale**, composée de quatre nombres décimaux, chacun allant de 0 à 255, séparés par des points. Les adresses IPv4 sont codées sur 32 bits, ce qui limite à 4,3 x 10^+9 adresses possibles. Prenons l'adresse IPv4 suivante: `172.16.254.1`. Dans cette exemple, chaque partie séparé par un point, représente un groupe de 8 bits (un octet) de l'adresse. Dans certains cas d'écriture technique, les adresses IPv4 peuvent être présentées dans diverses représentations hexadécimales, octales ou binaires.   
 
-![IPv4 décimale binaire](learning-md/network/ip_address_ipv4.png)
+![IPv4 décimale binaire](https://raw.githubusercontent.com/ClimbingFromBottom/md-files/main/images/ip_address/ip_address_ipv4)
 <!-- ~~**Adresse IPv4 : notation décimale -> binaire**
 |decimale (1 octet)|172 | 16 | 254 | 1|
 |--------|----|----|-----|----|
