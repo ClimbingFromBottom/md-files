@@ -13,10 +13,12 @@ Il y a obligation, de la part du gérant, de mettre en œuvre des mesures techni
 Le fait de ne pas respecter ces obligations de sécurité est sanctionné pénalement ('article 226-17') de 300 000 € d'amende et peu monter jusqu'à 5 ans d'emprisonnement.
 
 #### Responsabilité Civile
-Toute entreprise qui n'aura pas pris de mesures de sécurité afin de protéger les serveurs de son entreprise sera responsable des conséquences. 
-D'après **l'Article 1384 du Code Civil** prévoit, que la responsabilité civile du dirigeant est engagée si à cause d'une faute caractérisée de sa part - telle l’absence de sauvegarde – l’entreprise subit une perte de données qui lui soit très dommageable. 
+~~Toute entreprise qui n'aura pas pris de mesures de sécurité afin de protéger les serveurs de son entreprise sera responsable des conséquences. 
+D'après **l'Article 1384 du Code Civil** prévoit, que la responsabilité civile du dirigeant est engagée si à cause d'une faute caractérisée de sa part - telle l’absence de sauvegarde – l’entreprise subit une perte de données qui lui soit très dommageable. ~~
 
-l’entreprise subit une perte de données qui lui soit très dommageable.
+~~L’absence d’une grande partie des moyens de sécurisation du serveur de l’entreprise décrits ci-dessus est susceptible de constituer une faute civile donnant lieu à responsabilité.
+Cette omission dans la mise en place de mesures de sécurité suffisantes caractérisera une faute par abstention.
+L’article 1383 du code civil énonce que ‘chacun est responsable du dommage qu’il a causé non seulement par son fait, mais encore par sa négligence ou par son imprudence‘. L’entreprise qui n’aura pas pris des mesures de sécurité raisonnables pour protéger son serveur contre une infection informatique virale sera de toute évidence négligente au sens de cette disposition.~~
 
 Ne pas respecter ses obligations de sécurité des données vous amenez à devoir payer des amendes importantes. Le 5 novembre 2015 [Optical Center](https://www.acuite.fr/actualite/profession/82668/optical-center-condamne-50-000-euros-damende-par-la-cnil "Optical Center condamné à 50 000 euros d’amende par la CNIL") à ainsi été condamné à ce titre par la CNIL à payer une amende 50 000 €.
 
