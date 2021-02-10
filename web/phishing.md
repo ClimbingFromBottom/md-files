@@ -3,7 +3,7 @@
 ## Definition
 L’hameçonnage (phishing en anglais) est une technique frauduleuse destinée à leurrer l’internaute pour l’inciter à communiquer des données personnelles (comptes d’accès, mots de passe, informations bancaire…) en se faisant passer pour un tiers de confiance. Il peut s’agir d’un faux message, SMS ou appel téléphonique de banque, d'un e-mail, de réseau social, d’opérateur de téléphonie, de fournisseur d’énergie, de site de commerce en ligne, d’administrations, etc.
 
-![Hameçonnage](https://raw.githubusercontent.com/ClimbingFromBottom/md-files/main/images/web/phishing-personnal_data.png)
+![Hameçonnage](https://raw.githubusercontent.com/ClimbingFromBottom/md-files/main/images/web/phishing/phishing-personnal_data.png)
 
 ## Prevention
 * Ne communiquez jamais d’informations sensibles par messagerie (SMS, email, etc..) ou téléphone :   
@@ -12,7 +12,7 @@ L’hameçonnage (phishing en anglais) est une technique frauduleuse destinée �
 * Avant de cliquer sur un lien douteux, **positionnez le curseur de votre souris au-dessus du lien** (sans cliquer)   
 > Cela affichera alors l’adresse vers laquelle il pointe réellement afin d’en vérifier la vraisemblance ou allez directement sur le site de l’organisme en question par un lien favori que vous aurez vous-même créé.
 
-![Hameçonnage - ne pas cliquer](https://raw.githubusercontent.com/ClimbingFromBottom/md-files/main/images/web/phishing-dont_click.png)
+![Hameçonnage - ne pas cliquer](https://raw.githubusercontent.com/ClimbingFromBottom/md-files/main/images/web/phishing/phishing-dont_click.png)
 
 * **Vérifiez l’adresse** du site qui s’affiche dans votre navigateur 
 > Si cela ne correspond pas exactement au site concerné, c’est très certainement un site frauduleux. Parfois, un seul caractère peut changer dans l’adresse du site pour vous tromper. Au moindre doute, ne fournissez aucune information et fermez immédiatement la page correspondante.
@@ -73,7 +73,7 @@ Les cookies Tiers sont au contraire des cookies Internes, utilisé à des fins p
 
 ## Exemple : connection à un compte facebook
 
-![Hameçonnage - login facebook](https://raw.githubusercontent.com/ClimbingFromBottom/md-files/main/images/web/phishing-facebook.png)
+![Hameçonnage - login facebook](https://raw.githubusercontent.com/ClimbingFromBottom/md-files/main/images/web/phishing/phishing-facebook.png)
 
 Accéder à un exemple de phishing, la page [**d'identification de Facebook**](learning-md/web/facebook "https://www.facebook.com").
 
