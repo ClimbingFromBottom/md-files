@@ -1,30 +1,32 @@
-# Hameçonnage
+# Hameconnage
 
-## Définition
-L’hameçonnage (phishing en anglais) est une technique frauduleuse destinée à leurrer l’internaute pour l’inciter à communiquer des données personnelles (comptes d’accès, mots de passe, informations bancaires…) en se faisant passer pour un tiers de confiance. Il peut s’agir d’un faux message, SMS ou appel téléphonique de banque, d'un e-mail, de réseau social, d’opérateurs de téléphonie, de fournisseur d’énergie, de site de commerce en ligne, d’administrations, etc.
+## Definition
+L’hameçonnage (phishing en anglais) est une technique frauduleuse destinée à leurrer l’internaute pour l’inciter à communiquer des données personnelles (comptes d’accès, mots de passe, informations bancaire…) en se faisant passer pour un tiers de confiance. Il peut s’agir d’un faux message, SMS ou appel téléphonique de banque, d'un e-mail, de réseau social, d’opérateur de téléphonie, de fournisseur d’énergie, de site de commerce en ligne, d’administrations, etc.
 
+![Hameçonnage](https://raw.githubusercontent.com/ClimbingFromBottom/md-files/main/images/web/phishing-personnal_data.png)
 
 ## Prevention
-1. Ne communiquez jamais d’informations sensibles par messagerie (SMS, e-mail, etc.) ou téléphone : 
+* Ne communiquez jamais d’informations sensibles par messagerie (SMS, email, etc..) ou téléphone :   
 > Aucune administration ou société commerciale sérieuse ne vous demandera vos données bancaires ou vos mots de passe par message électronique ou par téléphone.
 
-2. Avant de cliquer sur un lien douteux, **positionnez le curseur de votre souris au-dessus du lien** (sans cliquer) 
+* Avant de cliquer sur un lien douteux, **positionnez le curseur de votre souris au-dessus du lien** (sans cliquer)   
 > Cela affichera alors l’adresse vers laquelle il pointe réellement afin d’en vérifier la vraisemblance ou allez directement sur le site de l’organisme en question par un lien favori que vous aurez vous-même créé.
 
+![Hameçonnage - ne pas cliquer](https://raw.githubusercontent.com/ClimbingFromBottom/md-files/main/images/web/phishing-dont_click.png)
 
-3. **Vérifiez l’adresse** du site qui s’affiche dans votre navigateur 
+* **Vérifiez l’adresse** du site qui s’affiche dans votre navigateur 
 > Si cela ne correspond pas exactement au site concerné, c’est très certainement un site frauduleux. Parfois, un seul caractère peut changer dans l’adresse du site pour vous tromper. Au moindre doute, ne fournissez aucune information et fermez immédiatement la page correspondante.
 
-4. En cas de **doute**, contactez si possible directement l’organisme concerné 
+* En cas de **doute**, contactez si possible directement l’organisme concerné 
 > Afin de confirmer le message ou l’appel que vous avez reçu et de cet organisme.
 
-5. Utilisez des **mots de passe différents et complexes** pour chaque site et application. 
+* Utilisez des **mots de passe différents et complexes** pour chaque site et application. 
 > Afin d’éviter que le vol d’un de vos mots de passe ne compromette tous vos comptes personnels. Vous pouvez également utiliser des coffres-forts numériques de type KeePass pour stocker de manière sécurisée vos différents mots de passe. De cette manière, vous n'avez qu'à retenir un seul mot de passe ! Celui du coffre numérique.
 
-6. Si le site le permet, vérifiez les dates et heure de dernière connexion à votre compte. 
+* Si le site le permet, vérifiez les dates et heure de dernière connexion à votre compte. 
 > Afin de repérer si des accès illégitimes ont été réalisés.
 
-7. Si le site vous le permet, activez la **double authentification** pour sécuriser vos accès.
+* Si le site vous le permet, activez la **double authentification** pour sécuriser vos accès.
 
 ## Différenciez données personnelles & informations de navigation
 > **Article 4**
@@ -69,9 +71,11 @@ Aujourd'hui, et quel que soit le navigateur Internet que vous utilisez, vous ave
 Les cookies Tiers sont au contraire des cookies Internes, utilisé à des fins publlicitaire.
 
 
-## Exemple de phiphing pour un compte facebook
+## Exemple : connection à un compte facebook
 
-[**Page d'exemple de phishing**](learning-md/web/facebook)
+![Hameçonnage - login facebook](https://raw.githubusercontent.com/ClimbingFromBottom/md-files/main/images/web/phishing-facebook.png)
+
+Accéder à un exemple de phishing, la page [**d'identification de Facebook**](learning-md/web/facebook "https://www.facebook.com").
 
 
 ------
