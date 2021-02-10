@@ -76,17 +76,17 @@ Betty écrit un message et place celui-ci dans une boite; Boite qu'elle ferme av
 
 ![Betty chiffre un message](https://raw.githubusercontent.com/ClimbingFromBottom/md-files/main/images/cryptographie/02_bob_chiffre_le_msg.png)
 
-Une fois qui Betty a fermée la boite, elle va l'envoyé à Alice. Le message ne craint rien, puisqu'il est dans une boite que personne ne peut ouvrir (grace au cadenas). 
+Une fois qui Betty a fermée la boite, elle va l'envoyer à Alice. Le message ne craint rien, puisqu'il est dans une boite que personne ne peut ouvrir (grace au cadenas). 
 
 ![Betty envoie un message chiffré à Alice](https://raw.githubusercontent.com/ClimbingFromBottom/md-files/main/images/cryptographie/03_bob_envoie_msg_chiffre.png)
 
 **/!\ Note:** Cette boite ne peut etre ouverte que par Alice, car elle seule possède la clé du cadenas.
 
-Alice recoit la boite avec le cadenas contenant le message de Betty. Elle peut ouvrir cette boite grace à la clé qu'elle possede (**clé privée**) et ainsi, lire le message que contient la boite.
+Alice recoit la boite avec le cadenas contenant le message de Betty. Elle peut ouvrir cette boite grace à la clé qu'elle possede (**clé privée**) et ainsi, lire le message que contient la boite. 
 
 ![Alice déchiffre le message](https://raw.githubusercontent.com/ClimbingFromBottom/md-files/main/images/cryptographie/04_alice_dechiffre_le_msg.png)
 
-**/!\ Remarque** : Avec la cryptographie asymétrique, la seule chose qui circule sur le réseau est "un cadenas ouvert" puis "une boite avec un cadenas fermé". Si une personne mal intentionnée intercepte le cadenas ouvert, rien de grave puisque cela ne lui permettra jamais d'ouvrir le cadenas fermé.
+**/!\ Remarque** : Avec la cryptographie asymétrique, la seule chose qui circule sur le réseau est "un cadenas ouvert" (clé publique) puis "une boite avec un cadenas fermé" (message chiffré avec clé publique). Si une personne mal intentionnée intercepte le cadenas ouvert, rien de grave puisque cela ne lui permettra jamais d'ouvrir le cadenas fermé (de déchiffrer le contenu du message).
 
 
 ### Casser un chiffrement
