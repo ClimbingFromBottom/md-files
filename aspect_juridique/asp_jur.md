@@ -14,7 +14,7 @@ Le fait de ne pas respecter ces obligations de sécurité est sanctionné pénal
 
 #### Responsabilité Civile
 ~~Toute entreprise qui n'aura pas pris de mesures de sécurité afin de protéger les serveurs de son entreprise sera responsable des conséquences. 
-D'après **l'Article 1384 du Code Civil** prévoit, que la responsabilité civile du dirigeant est engagée si à cause d'une faute caractérisée de sa part - telle l’absence de sauvegarde – l’entreprise subit une perte de données qui lui soit très dommageable. ~~
+D'après **l'Article 1384 du Code Civil** prévoit, que la responsabilité civile du dirigeant est engagée si à cause d'une faute caractérisée de sa part - telle l’absence de sauvegarde – l’entreprise subit une perte de données qui lui soit très dommageable.~~
 
 ~~L’absence d’une grande partie des moyens de sécurisation du serveur de l’entreprise décrits ci-dessus est susceptible de constituer une faute civile donnant lieu à responsabilité.
 Cette omission dans la mise en place de mesures de sécurité suffisantes caractérisera une faute par abstention.
