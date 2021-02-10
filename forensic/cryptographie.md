@@ -41,7 +41,7 @@ Il existe deux grandes familles de chiffrement : le **chiffrement symétrique** 
 
 Le chiffrement symétrique permet de chiffrer et de déchiffrer un contenu avec la même clé, appelée alors la **« clé secrète »**. Le chiffrement symétrique est particulièrement rapide mais nécessite que l’émetteur et le destinataire se mettent d’accord sur une clé secrète commune ou se la transmettent par un autre canal. Celui-ci doit être **choisi avec précautions**, sans quoi la clé pourrait être récupérée par les mauvaises personnes, ce qui n’assurerait plus la confidentialité du message. 
 
-!Chiffrement symetrique](https://raw.githubusercontent.com/ClimbingFromBottom/md-files/main/images/cryptographie/chifrement_symetrique.png)
+![Chiffrement symetrique](https://raw.githubusercontent.com/ClimbingFromBottom/md-files/main/images/cryptographie/chifrement_symetrique.png)
 
 Parmis les algorithmes de chiffrement symétrique les plus utilisés, on retrouve :
 - [DES](https://fr.wikipedia.org/wiki/Data_Encryption_Standard) (Data Encryption Standard)
