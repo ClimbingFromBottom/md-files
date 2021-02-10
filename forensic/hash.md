@@ -31,7 +31,7 @@ Cette empreinte, ou plutôt ce hash, possède plusieurs propriétés particuliè
 **Troisièmement, le hash est à sens unique**. Si on peut toujours déterminer le même hash à partir du fichier, il est strictement impossible de retrouver le fichier à partir du hash. La seule solution est d’essayer tous les fichiers possibles. Dans certains cas, c’est cependant possible (par exemple si on a le hash d’un mot de passe dont on sait que la longueur est limitée, il est relativement simple de tester toutes les combinaisons).
 
 ![Principe du hashing & du chiffrement](https://raw.githubusercontent.com/ClimbingFromBottom/md-files/main/images/hash/hashing.png)
-Pour plus d'informations, cliquez sur le lien suivant pour en apprendre d'avantage sur le [chiffrement](./cryptographie.md).
+Pour plus d'informations, suivez le lien sur le [chiffrement] et son importance dans la cryptographie(./cryptographie.md).   
 
 
 **Quatrième propriété et non des moindres** : un bon hash ne permet pas les collisions. Cela signifie que deux fichiers différents ne peuvent pas avoir le même hash. Le hash est donc unique, c’est une sorte d’empreinte digitale unique du fichier. Lorsque des chercheurs découvrent une collision, on dit que l’algorithme de hash est “cassé”. Il ne faut plus lui faire confiance et ne plus l’utiliser (c’est par exemple le cas de SHA-1 et de MD5. Ces fonctions ne doivent donc plus être utilisées).
