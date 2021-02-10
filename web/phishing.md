@@ -6,30 +6,30 @@ L’hameçonnage (phishing en anglais) est une technique frauduleuse destinée �
 ![Hameçonnage](https://raw.githubusercontent.com/ClimbingFromBottom/md-files/main/images/phishing/phishing-personnal_data2.png)
 
 ## Prevention
-* Ne communiquez jamais d’informations sensibles par messagerie (SMS, email, etc..) ou téléphone :   
+- Ne communiquez jamais d’informations sensibles par messagerie (SMS, email, etc..) ou téléphone :   
 > Aucune administration ou société commerciale sérieuse ne vous demandera vos données bancaires ou vos mots de passe par message électronique ou par téléphone.
 
-* Avant de cliquer sur un lien douteux, **positionnez le curseur de votre souris au-dessus du lien** (sans cliquer)   
+- Avant de cliquer sur un lien douteux, **positionnez le curseur de votre souris au-dessus du lien** (sans cliquer)   
 > Cela affichera alors l’adresse vers laquelle il pointe réellement afin d’en vérifier la vraisemblance ou allez directement sur le site de l’organisme en question par un lien favori que vous aurez vous-même créé.
 
 ![Hameçonnage - ne pas cliquer](https://raw.githubusercontent.com/ClimbingFromBottom/md-files/main/images/phishing/phishing-dont_click.png)
 
-* **Vérifiez l’adresse** du site qui s’affiche dans votre navigateur 
+- **Vérifiez l’adresse** du site qui s’affiche dans votre navigateur 
 > Si cela ne correspond pas exactement au site concerné, c’est très certainement un site frauduleux. Parfois, un seul caractère peut changer dans l’adresse du site pour vous tromper. Au moindre doute, ne fournissez aucune information et fermez immédiatement la page correspondante.
 
-* En cas de **doute**, contactez si possible directement l’organisme concerné 
+- En cas de **doute**, contactez si possible directement l’organisme concerné 
 > Afin de confirmer le message ou l’appel que vous avez reçu et de cet organisme.
 
-* Utilisez des **mots de passe différents et complexes** pour chaque site et application. 
+- Utilisez des **mots de passe différents et complexes** pour chaque site et application. 
 > Afin d’éviter que le vol d’un de vos mots de passe ne compromette tous vos comptes personnels. Vous pouvez également utiliser des coffres-forts numériques de type KeePass pour stocker de manière sécurisée vos différents mots de passe. De cette manière, vous n'avez qu'à retenir un seul mot de passe ! Celui du coffre numérique.
 
-* Si le site le permet, vérifiez les dates et heure de dernière connexion à votre compte. 
+- Si le site le permet, vérifiez les dates et heure de dernière connexion à votre compte. 
 > Afin de repérer si des accès illégitimes ont été réalisés.
 
-* Si le site vous le permet, activez la **double authentification** pour sécuriser vos accès.
+- Si le site vous le permet, activez la **double authentification** pour sécuriser vos accès.
 
 ## Différenciez données personnelles & informations de navigation
-> **Article 4**
+### **Article 4**
 > « données à caractère personnel », toute information se rapportant à une personne physique identifiée ou identifiable (ci-après dénommée « personne concernée») ; est réputée être une « personne physique identifiable » une personne physique qui peut être identifiée, directement ou indirectement, notamment par référence à un identifiant, tel qu'un nom, un numéro d'identification, des données de localisation, un identifiant en ligne, ou à un ou plusieurs éléments spécifiques propres à son identité physique, physiologique, génétique, psychique, économique, culturelle ou sociale ;
 
 L’article 4 du règlement général sur la protection des données définit les données à caractère personnel comme « toute information se rapportant à une personne physique identifiée ou identifiable ». 
