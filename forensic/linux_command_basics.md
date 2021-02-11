@@ -1,11 +1,5 @@
 # Linux - les commandes de bases
 
-	Test
-	de
-	bloc
-	de
-	code
-
 ## A connaitre par coeur
 ### man
 La commande 'man' correspond à 'manuel' et permet de comprendre le fonctionnement de la commande suivant 'man'.   
