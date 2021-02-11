@@ -103,7 +103,6 @@ Un script PHP peu être placer n'importe ou dans le document (souvent HTML). Un 
 	    &lt;h1&gt;Premier code PHP&lt;/h1&gt;
 	    &lt;?php
 	      echo "Hello World";                 // ce texte sera affiché sur le navigateur
-
 	      $prenomBob = "Bob";                 // assigne du texte dans la varible : "$prenomBob"
 	      echo "Bienvenue " . $prenomBob;     // affiche le texte & la variable concecutivement
 	    ?&gt;
