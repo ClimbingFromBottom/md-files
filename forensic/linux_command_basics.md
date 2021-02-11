@@ -1,11 +1,18 @@
 # Linux - les commandes de bases
 
+	Test
+	de
+	bloc
+	de
+	code
+
 ## A connaitre par coeur
 ### man
 La commande 'man' correspond à 'manuel' et permet de comprendre le fonctionnement de la commande suivant 'man'.   
 Structure : `man &lt;command&gt;` affiche les informations pour l'utilisation de la &lt;command&gt;  
-Exemple : `man man`
+Exemple :
 
+	`man ls`
 	=> appuyer sur la touche 'espace' pour naviguer et lire le contenu du manuel
 	=> appuyer sur la touche 'q' pour quitter le manuel
 
