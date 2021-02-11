@@ -10,10 +10,10 @@ L'escroquerie est punie de cinq ans d'emprisonnement et de 375 000 euros d'amend
 ## Article 313-2
 L'escroquerie est punie de cinq ans d'emprisonnement et de 375 000 euros d'amende.
 
-	1. Par une personne dépositaire de l'autorité publique ou chargée d'une mission de service public, dans l'exercice ou à l'occasion de l'exercice de ses fonctions ou de sa mission ;
-	2. Par une personne qui prend indûment la qualité d'une personne dépositaire de l'autorité publique ou chargée d'une mission de service public ;
-	3. Par une personne qui fait appel au public en vue de l'émission de titres ou en vue de la collecte de fonds à des fins d'entraide humanitaire ou sociale ;
-	4. Au préjudice d'une personne dont la particulière vulnérabilité, due à son âge, à une maladie, à une infirmité, à une déficience physique ou psychique ou à un état de grossesse, est apparente ou connue de son auteur.
+ 1. Par une personne dépositaire de l'autorité publique ou chargée d'une mission de service public, dans l'exercice ou à l'occasion de l'exercice de ses fonctions ou de sa mission ;
+ 2. Par une personne qui prend indûment la qualité d'une personne dépositaire de l'autorité publique ou chargée d'une mission de service public ;
+ 3. Par une personne qui fait appel au public en vue de l'émission de titres ou en vue de la collecte de fonds à des fins d'entraide humanitaire ou sociale ;
+ 4. Au préjudice d'une personne dont la particulière vulnérabilité, due à son âge, à une maladie, à une infirmité, à une déficience physique ou psychique ou à un état de grossesse, est apparente ou connue de son auteur.
 
 Les peines sont portées à dix ans d'emprisonnement et à 1 000 000 Euros d'amende lorsque l'escroquerie est commise en bande organisée.
 
@@ -38,13 +38,13 @@ La participation à un groupement formé ou à une entente établie en vue de la
 
 ## Article 323-5
 Les personnes physiques coupables des délits prévus au présent chapitre encourent également les peines complémentaires suivantes :
-	1. L'interdiction, pour une durée de cinq ans au plus, des droits civiques, civils et de famille, suivant les modalités de l'article 131-26 ;
-	2. L'interdiction, pour une durée de cinq ans au plus, d'exercer une fonction publique ou d'exercer l'activité professionnelle ou sociale dans l'exercice de celle-ci ou à l'occasion de laquelle l'infraction a été commise ;
-	3. La confiscation de la chose qui a servi ou était destinée à commettre l'infraction ou de la chose qui en est le produit, à l'exception des objets susceptibles de restitution ;
-	4. La fermeture, pour une durée de cinq ans au plus, des établissements ou de l'un ou de plusieurs des établissements de l'entreprise ayant servi à commettre les faits incriminés ;
-	5. L'exclusion, pour une durée de cinq ans au plus, des marchés publics ;
-	6. L'interdiction, pour une durée de cinq ans au plus, d'émettre des chèques autres que ceux qui permettent le retrait de fonds par le tireur auprès du tiré ou ceux qui sont certifiés ;
-	7. L'affichage ou la diffusion de la décision prononcée dans les conditions prévues par [l'article 131-35](https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000024041186/2011-05-19).
+ 1. L'interdiction, pour une durée de cinq ans au plus, des droits civiques, civils et de famille, suivant les modalités de l'article 131-26 ;
+ 2. L'interdiction, pour une durée de cinq ans au plus, d'exercer une fonction publique ou d'exercer l'activité professionnelle ou sociale dans l'exercice de celle-ci ou à l'occasion de laquelle l'infraction a été commise ;
+ 3. La confiscation de la chose qui a servi ou était destinée à commettre l'infraction ou de la chose qui en est le produit, à l'exception des objets susceptibles de restitution ;
+ 4. La fermeture, pour une durée de cinq ans au plus, des établissements ou de l'un ou de plusieurs des établissements de l'entreprise ayant servi à commettre les faits incriminés ;
+ 5. L'exclusion, pour une durée de cinq ans au plus, des marchés publics ;
+ 6. L'interdiction, pour une durée de cinq ans au plus, d'émettre des chèques autres que ceux qui permettent le retrait de fonds par le tireur auprès du tiré ou ceux qui sont certifiés ;
+ 7. L'affichage ou la diffusion de la décision prononcée dans les conditions prévues par [l'article 131-35](https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000024041186/2011-05-19).
 
 ## Article 323-6
 Les personnes morales déclarées responsables pénalement, dans les conditions prévues par l'article 121-2, des infractions définies au présent chapitre encourent, outre l'amende suivant les modalités prévues par l'article 131-38, les peines prévues par l'article 131-39. L'interdiction mentionnée au 2° de l'article 131-39 porte sur l'activité dans l'exercice ou à l'occasion de l'exercice de laquelle l'infraction a été commise.
