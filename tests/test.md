@@ -1,5 +1,17 @@
 # Linux - les commandes de bases
 
+1. test listes
+2. test listes
+3. test listes
+4. test listes
+5. test listes
+6. test listes
+7. test listes
+8. test listes
+9. test listes
+10. test listes
+
+
 ## A connaitre par coeur
 ### man
 La commande 'man' correspond à 'manuel' et permet de comprendre le fonctionnement de la commande suivant 'man'.   
