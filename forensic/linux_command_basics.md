@@ -19,7 +19,7 @@ Pour plus d'information sur l'utilisation de la commande 'man', cliquez [sur ce 
 
 ### ls
 La commande 'ls' correspond à 'list' et permet de lister le contenu d'un repertoire.   
-Structure : `ls <option>` 
+Structure : `ls &lt;option&gt;` 
 	&ltoptions&gt :
 -l &nbsp;&nbsp;&nbsp;=> montre le contenu detaillé du repertoire (permission acces, nom proprietaire, etc...) 
 -a &nbsp;&nbsp;&nbsp;=> montre le contenu & les fichiers cachés du repertoire (ex: '.bashrc')
@@ -28,7 +28,7 @@ Structure : `ls <option>`
 
 ### cd
 La commande 'cd' correspond à 'change directory' et permet de se promener dans les repertoires.   
-Structure : `cd <option>` 
+Structure : `cd &lt;option&gt;` 
 Exemple : `cd /nom_repertoire`
 
 `cd`&nbsp;&nbsp;&nbsp;=> retourne au repertoire '/home/user'
@@ -58,7 +58,8 @@ La commande 'grep' correspond à 'global regular expression print' et permet de 
 -r &nbsp;&nbsp;&nbsp;=> recherche recursivement dans tous les sous-repertoires
 -v toto &nbsp;&nbsp;&nbsp;=> recherche les lignes qui ne contiennent pas le mot 'toto'
 
-Exemple: 	`grep -n mon_texte_ici mon_fichier` => retourne les lignes ainsi que leurs num où 'mon_texte_ici' apparait dans 'mon_fichier'
+Exemple: 
+`grep -n mon_texte_ici mon_fichier` => retourne les lignes ainsi que leurs num où 'mon_texte_ici' apparait dans 'mon_fichier'
 
 
 ### cp
@@ -79,7 +80,7 @@ Exemple :
 La commande 'mkdir' correspond à 'make directory' et permet de créer un repertoire vide.   
 Structure : `mkdir <option> <nom_repertoire>`    
 	&ltoptions&gt :
--p &nbsp;&nbsp;&nbsp;=>  Crée les répertoires parents s'ils n'existent pas)   
+		-p &nbsp;&nbsp;&nbsp;=>  Crée les répertoires parents s'ils n'existent pas)   
    
 Exemple:
 `mkdir photos_marriage` => crée le repertoire
@@ -89,9 +90,9 @@ Exemple:
 La commande 'rm' correspond à 'remove' et permet d'effacer des fichiers (ou repertoire si utilisé avec <options>).   
 Structure : `rm <option> <nom_fichier>`    
 	&ltoptions&gt :
--i &nbsp;&nbsp;&nbsp;=> demande une confirmation avant de supprimer
--f &nbsp;&nbsp;&nbsp;=> ne demande pas de confirmation
--r &nbsp;&nbsp;&nbsp;=> efface recursivement (y compris les sous-dossiers)
+		-i &nbsp;&nbsp;&nbsp;=> demande une confirmation avant de supprimer
+		-f &nbsp;&nbsp;&nbsp;=> ne demande pas de confirmation
+		-r &nbsp;&nbsp;&nbsp;=> efface recursivement (y compris les sous-dossiers)
 
 Exemple :
 `rm nom_fichier` => efface du repertoire courant 'nom_fichier'
@@ -103,8 +104,8 @@ Exemple :
 La commande 'more' correspond à 'more' et permet d'afficher un fichier page par page   
 Structure : `more <option> <nom_fichier>`    
 	&ltoptions&gt :
--s &nbsp;&nbsp;&nbsp;=> Regroupe les lignes vides consécutives en une seule
--f &nbsp;&nbsp;&nbsp;=> Ne coupe pas les lignes longues
+		-s &nbsp;&nbsp;&nbsp;=> Regroupe les lignes vides consécutives en une seule
+		-f &nbsp;&nbsp;&nbsp;=> Ne coupe pas les lignes longues
 
 Exemple:
 `more -sf monfichier` => affiche monfichier page par page & concatene les lignes vident sans couper les longues lignes
@@ -113,15 +114,15 @@ Exemple:
 La commande 'cat' correspond à 'concatenate' et permet d'afficher le contenu d'un fichier    
 Structure : `cat <option> <nom_fichier>`    
 	&ltoptions&gt :
--n &nbsp;&nbsp;&nbsp;=> affiche le numero des lignes
--v &nbsp;&nbsp;&nbsp;=> affiche les caracteres de controles
+		-n &nbsp;&nbsp;&nbsp;=> affiche le numero des lignes
+		-v &nbsp;&nbsp;&nbsp;=> affiche les caracteres de controles
 
 Exemple:
 `cat -n nomfichier ` => affiche 'nomfichier' en numerotant les lignes (à partir de 1)
 
 Créer un ficher txt contenant qq lignes sans utiliser d'editeur:
-	```bash
+
 	cat > monfichier
-	blabla texte a inclure dans monfichier
-	```
+		blabla texte a inclure dans monfichier
+
 (Ctrl + D pour terminer)
