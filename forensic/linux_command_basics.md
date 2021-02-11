@@ -1,16 +1,9 @@
----
-title: "Command Linux Ubuntu - basics"  
-date: 2021-02-02  
-draft: false  
-
----  
-
 # Linux - les commandes de bases
 
 ## A connaitre pas coeur
 ### man
 La commande 'man' correspond à 'manuel' et permet de comprendre le fonctionnement de la commande suivant 'man'.   
-Structure : 	`man <command>` affiche les informations pour l'utilisation de la <command>  
+Structure : `man <command>` affiche les informations pour l'utilisation de la <command>  
 Exemple : `man man` 
 => appuyer sur la touche 'espace' pour naviguer et lire le contenue du manuel
 => appuyer sur la touche 'q' pour quitter le manuel
@@ -19,10 +12,11 @@ Pour plus d'information sur l'utilisation de la commande 'man', cliquez [sur ce 
 
 ### ls
 La commande 'ls' correspond à 'list' et permet de lister le contenu d'un repertoire.   
-Structure : `ls &lt;option&gt;` 
+Structure : `ls &lt;option&gt;`
+
 	&ltoptions&gt :
--l &nbsp;&nbsp;&nbsp;=> montre le contenu detaillé du repertoire (permission acces, nom proprietaire, etc...) 
--a &nbsp;&nbsp;&nbsp;=> montre le contenu & les fichiers cachés du repertoire (ex: '.bashrc')
+	  -l &nbsp;&nbsp;&nbsp;=> montre le contenu detaillé du repertoire (permission acces, nom proprietaire, etc...) 
+	  -a &nbsp;&nbsp;&nbsp;=> montre le contenu & les fichiers cachés du repertoire (ex: '.bashrc')
 
 ![Utilisation de la commande "ls"](https://raw.githubusercontent.com/ClimbingFromBottom/md-files/main/images/forensic/linux_command_basics-ls.png)
 
@@ -30,7 +24,6 @@ Structure : `ls &lt;option&gt;`
 La commande 'cd' correspond à 'change directory' et permet de se promener dans les repertoires.   
 Structure : `cd &lt;option&gt;` 
 Exemple : `cd /nom_repertoire`
-
 `cd`&nbsp;&nbsp;&nbsp;=> retourne au repertoire '/home/user'
 `cd ..`&nbsp;&nbsp;&nbsp;=> retourne au repertoire parent (precedent)
 `cd /usr/bin` &nbsp;&nbsp;&nbsp;=> se deplace dans le repertoire '/usr/bin'
@@ -40,23 +33,26 @@ La commande 'pwd' correspond à 'print working directory' et permet d'afficher l
 
 ### find 
 La commande 'find' correspond à 'find' et permet de chercher des fichiers (commande recursive : demarre dans le repertoire d'execution jusqu'a tous les sous-repertoire)
-	&ltoptions&gt :
--name &nbsp;&nbsp;&nbsp;=> Recherche un fichier par son nom
--iname &nbsp;&nbsp;&nbsp;=> Même chose que `-name` mais insensible aux majuscules
--type &nbsp;&nbsp;&nbsp;=> Recher un fichier par son typer
 
-Exemple:   
-	`find nom_fichier*` => Effectue une recherche contenant 'nom_fichier' peut importe l'extension dû dit fichier.
-	`find -name **tribu_de_dana**.mp3` => Recherche un fichier contenant 'tribu_de_dana' et qui à pour extension 'mp3' 
+	&ltoptions&gt :
+	  -name &nbsp;&nbsp;&nbsp;=> Recherche un fichier par son nom
+	  -iname &nbsp;&nbsp;&nbsp;=> Même chose que `-name` mais insensible aux majuscules
+	  -type &nbsp;&nbsp;&nbsp;=> Recher un fichier par son typer
+
+Exemple:
+
+`find nom_fichier*` => Effectue une recherche contenant 'nom_fichier' peut importe l'extension dû dit fichier.
+`find -name **tribu_de_dana**.mp3` => Recherche un fichier contenant 'tribu_de_dana' et qui à pour extension 'mp3' 
 
 ### grep
-La commande 'grep' correspond à 'global regular expression print' et permet de rechercher une chaine de caracteres dans des fichiers (généralement utilisé avec d'autres commandes)   
+La commande 'grep' correspond à 'global regular expression print' et permet de rechercher une chaine de caracteres dans des fichiers (généralement utilisé avec d'autres commandes)
+
 	&ltoptions&gt :
--i &nbsp;&nbsp;&nbsp;=> insensible aux majuscules
--c &nbsp;&nbsp;&nbsp;=> retourene le nombre de ligne au lieu de la ligne en elle meme
--n &nbsp;&nbsp;&nbsp;=> retourne les lignes préfixés par leur numero
--r &nbsp;&nbsp;&nbsp;=> recherche recursivement dans tous les sous-repertoires
--v toto &nbsp;&nbsp;&nbsp;=> recherche les lignes qui ne contiennent pas le mot 'toto'
+	  -i &nbsp;&nbsp;&nbsp;=> insensible aux majuscules
+	  -c &nbsp;&nbsp;&nbsp;=> retourene le nombre de ligne au lieu de la ligne en elle meme
+	  -n &nbsp;&nbsp;&nbsp;=> retourne les lignes préfixés par leur numero
+	  -r &nbsp;&nbsp;&nbsp;=> recherche recursivement dans tous les sous-repertoires
+	  -v toto &nbsp;&nbsp;&nbsp;=> recherche les lignes qui ne contiennent pas le mot 'toto'
 
 Exemple: 
 `grep -n mon_texte_ici mon_fichier` => retourne les lignes ainsi que leurs num où 'mon_texte_ici' apparait dans 'mon_fichier'
@@ -64,11 +60,12 @@ Exemple:
 
 ### cp
 La commande 'cp' correspond à 'copy' et permet de copier des fichiers ou repertoires.   
-Structure : `cp <option> <source> <destination>` 
+Structure : `cp <option> <source> <destination>`
+
 	&ltoptions&gt :
--a &nbsp;&nbsp;&nbsp;=> copie et garde les droits, dates, etc...
--r &nbsp;&nbsp;&nbsp;=> copie un repertoire et son contenu (y compris les sous-repertoires) 
--v &nbsp;&nbsp;&nbsp;=> verbose : permet de suivre les copies réalisés en temps réel
+	  -a &nbsp;&nbsp;&nbsp;=> copie et garde les droits, dates, etc...
+	  -r &nbsp;&nbsp;&nbsp;=> copie un repertoire et son contenu (y compris les sous-repertoires) 
+	  -v &nbsp;&nbsp;&nbsp;=> verbose : permet de suivre les copies réalisés en temps réel
 
 Exemple : 
 `cp nom_fichier rep_destination/` => copie 'nom_fichier' dans 'rep_destination' 
@@ -78,9 +75,10 @@ Exemple :
 
 ### mkdir
 La commande 'mkdir' correspond à 'make directory' et permet de créer un repertoire vide.   
-Structure : `mkdir <option> <nom_repertoire>`    
+Structure : `mkdir <option> <nom_repertoire>`
+
 	&ltoptions&gt :
-		-p &nbsp;&nbsp;&nbsp;=>  Crée les répertoires parents s'ils n'existent pas)   
+	  -p &nbsp;&nbsp;&nbsp;=>  Crée les répertoires parents s'ils n'existent pas)   
    
 Exemple:
 `mkdir photos_marriage` => crée le repertoire
@@ -88,11 +86,12 @@ Exemple:
 
 ### rm
 La commande 'rm' correspond à 'remove' et permet d'effacer des fichiers (ou repertoire si utilisé avec <options>).   
-Structure : `rm <option> <nom_fichier>`    
+Structure : `rm <option> <nom_fichier>`
+
 	&ltoptions&gt :
-		-i &nbsp;&nbsp;&nbsp;=> demande une confirmation avant de supprimer
-		-f &nbsp;&nbsp;&nbsp;=> ne demande pas de confirmation
-		-r &nbsp;&nbsp;&nbsp;=> efface recursivement (y compris les sous-dossiers)
+	  -i &nbsp;&nbsp;&nbsp;=> demande une confirmation avant de supprimer
+	  -f &nbsp;&nbsp;&nbsp;=> ne demande pas de confirmation
+	  -r &nbsp;&nbsp;&nbsp;=> efface recursivement (y compris les sous-dossiers)
 
 Exemple :
 `rm nom_fichier` => efface du repertoire courant 'nom_fichier'
@@ -102,20 +101,22 @@ Exemple :
 
 ### more
 La commande 'more' correspond à 'more' et permet d'afficher un fichier page par page   
-Structure : `more <option> <nom_fichier>`    
+Structure : `more <option> <nom_fichier>`
+
 	&ltoptions&gt :
-		-s &nbsp;&nbsp;&nbsp;=> Regroupe les lignes vides consécutives en une seule
-		-f &nbsp;&nbsp;&nbsp;=> Ne coupe pas les lignes longues
+	  -s &nbsp;&nbsp;&nbsp;=> Regroupe les lignes vides consécutives en une seule
+	  -f &nbsp;&nbsp;&nbsp;=> Ne coupe pas les lignes longues
 
 Exemple:
 `more -sf monfichier` => affiche monfichier page par page & concatene les lignes vident sans couper les longues lignes
 
 ### cat
 La commande 'cat' correspond à 'concatenate' et permet d'afficher le contenu d'un fichier    
-Structure : `cat <option> <nom_fichier>`    
+Structure : `cat <option> <nom_fichier>`
+
 	&ltoptions&gt :
-		-n &nbsp;&nbsp;&nbsp;=> affiche le numero des lignes
-		-v &nbsp;&nbsp;&nbsp;=> affiche les caracteres de controles
+	  -n &nbsp;&nbsp;&nbsp;=> affiche le numero des lignes
+	  -v &nbsp;&nbsp;&nbsp;=> affiche les caracteres de controles
 
 Exemple:
 `cat -n nomfichier ` => affiche 'nomfichier' en numerotant les lignes (à partir de 1)
@@ -123,6 +124,6 @@ Exemple:
 Créer un ficher txt contenant qq lignes sans utiliser d'editeur:
 
 	cat > monfichier
-		blabla texte a inclure dans monfichier
+	  blabla texte a inclure dans monfichier
 
 (Ctrl + D pour terminer)
