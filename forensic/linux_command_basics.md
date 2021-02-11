@@ -3,7 +3,7 @@
 ## A connaitre pas coeur
 ### man
 La commande 'man' correspond à 'manuel' et permet de comprendre le fonctionnement de la commande suivant 'man'.   
-Structure : `man <command>` affiche les informations pour l'utilisation de la <command>  
+Structure : `man &lt;command&gt;` affiche les informations pour l'utilisation de la &lt;command&gt;  
 Exemple : `man man` 
 => appuyer sur la touche 'espace' pour naviguer et lire le contenue du manuel
 => appuyer sur la touche 'q' pour quitter le manuel
@@ -60,7 +60,7 @@ Exemple:
 
 ### cp
 La commande 'cp' correspond à 'copy' et permet de copier des fichiers ou repertoires.   
-Structure : `cp <option> <source> <destination>`
+Structure : `cp &lt;option&gt; &lt;source&gt; &lt;destination&gt;`
 
 	&ltoptions&gt :
 	  -a &nbsp;&nbsp;&nbsp;=> copie et garde les droits, dates, etc...
@@ -75,7 +75,7 @@ Exemple :
 
 ### mkdir
 La commande 'mkdir' correspond à 'make directory' et permet de créer un repertoire vide.   
-Structure : `mkdir <option> <nom_repertoire>`
+Structure : `mkdir &lt;option&gt; &lt;nom_repertoire&gt;`
 
 	&ltoptions&gt :
 	  -p &nbsp;&nbsp;&nbsp;=>  Crée les répertoires parents s'ils n'existent pas)   
@@ -85,8 +85,8 @@ Exemple:
 `mkdir photos/alice_bob/2004` => crée le repertoire '2004', et s'ils n'existent pas, les repertoires 'alice_bob' et 'photos'
 
 ### rm
-La commande 'rm' correspond à 'remove' et permet d'effacer des fichiers (ou repertoire si utilisé avec <options>).   
-Structure : `rm <option> <nom_fichier>`
+La commande 'rm' correspond à 'remove' et permet d'effacer des fichiers (ou repertoire si utilisé avec &lt;options&gt;).   
+Structure : `rm &lt;option&gt; &lt;nom_fichier&gt;`
 
 	&ltoptions&gt :
 	  -i &nbsp;&nbsp;&nbsp;=> demande une confirmation avant de supprimer
@@ -101,7 +101,7 @@ Exemple :
 
 ### more
 La commande 'more' correspond à 'more' et permet d'afficher un fichier page par page   
-Structure : `more <option> <nom_fichier>`
+Structure : `more &lt;option&gt; &lt;nom_fichier&gt;`
 
 	&ltoptions&gt :
 	  -s &nbsp;&nbsp;&nbsp;=> Regroupe les lignes vides consécutives en une seule
@@ -112,7 +112,7 @@ Exemple:
 
 ### cat
 La commande 'cat' correspond à 'concatenate' et permet d'afficher le contenu d'un fichier    
-Structure : `cat <option> <nom_fichier>`
+Structure : `cat &lt;option&gt; &lt;nom_fichier&gt;`
 
 	&ltoptions&gt :
 	  -n &nbsp;&nbsp;&nbsp;=> affiche le numero des lignes
@@ -123,7 +123,7 @@ Exemple:
 
 Créer un ficher txt contenant qq lignes sans utiliser d'editeur:
 
-	cat > monfichier
+	cat &gt; monfichier
 	  blabla texte a inclure dans monfichier
 
 (Ctrl + D pour terminer)
