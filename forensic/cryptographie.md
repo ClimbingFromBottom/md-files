@@ -6,7 +6,7 @@ Historiquement, la cryptologie correspond à **la science du secret**, c'est-à-
 
 La cryptologie ne se limite plus aujourd’hui à assurer la **confidentialité** des secrets. Elle s’est élargie au fait d’assurer mathématiquement d’autres notions : assurer **l’authenticité** d’un message (qui a envoyé ce message ?) ou d'en assurer son **intégrité** (est-ce que le fichier a été modifié ?) ou encore sa **non-repudiation** (mécanisme qui permet d'enregistrer l'engagement d’une entité; de telle sorte que celle-ci ne puisse nier avoir accompli / pris ledit engagement.)
 
-1. **L'intégrité**
+- **L'intégrité**
 
 La cryptologie permet justement de détecter si le message, ou l’information, a été involontairement modifié. Ainsi, une « fonction de hachage » permettra d’associer à un message, à un fichier ou à un répertoire, une empreinte unique calculable et vérifiable par tous. Cette empreinte est souvent matérialisée par une longue suite de chiffres et de lettres précédées du nom de l’algorithme utilisé, par exemple « SHA2» ou « SHA256 ».
 
@@ -17,7 +17,7 @@ Il ne faut pas confondre le chiffrement, qui permet d’assurer la confidentiali
 > Pour sychroniser vos dossiers et détecter ceux qu’il faut sauvegarder à nouveau et ceux qui n’ont pas été modifiés ?
 
 
-2. **Authenticité**
+- **Authenticité**
 
 Au même titre que pour un document administratif ou un contrat sur support papier, le mécanisme de la « signature » - numérique - permet de vérifier qu’un message a bien été envoyé par le détenteur d’une « clé publique ». Ce procédé cryptographique permet à toute personne de s’assurer de l’identité de l’auteur d’un document et permet en plus d’assurer que celui-ci n’a pas été modifié.
 
@@ -32,7 +32,8 @@ l’autre, dite « privée », qui ne doit être connue que d’Alice.
 En pratique, Alice génère sa signature avec sa clé privée qui n’est connue que d’elle. N’importe quelle personne ayant accès à la clé publique d’Alice, dont Bob, peut vérifier la signature sans échanger de secret.
 
 
-3. **La confidentialité**
+- **La confidentialité**
+
 Le chiffrement d’un message permet de garantir que seuls l’émetteur et le(s) destinataire(s) légitime(s) d’un message en connaissent le contenu. Une fois chiffré, faute de connaitre la clé spécifique, un message devient inaccessible et illisible. Que ce soit par les humains ou les machines.
 
 Il existe deux grandes familles de chiffrement : le **chiffrement symétrique** et le **chiffrement asymétrique**.
