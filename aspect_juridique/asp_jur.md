@@ -29,7 +29,7 @@ Prendre des mesures afin de prévenir toutes tentatives d'intrusions ou de virus
 **Plan Juridique** 
 Par principe, l'employeur est responsable de l'utilisation des salariés des systèmes d'information de l'entreprise. Il est amené à encadrer cet usage afin d'éviter d'être reconnu coupable/complice d'un usage illicite en cas de délit d'un de ses salariés, délit qui serait commis depuis le système d'information de l'entreprise. L'article 1384 du Code Civil peut s'appliquer dans ses cas de figure et met en avant la responsabilité de l'employeur de ses salariés.
 
-	Article 1384 du Code Civil 
+- Article 1384 du Code Civil 
 « On est responsable non seulement du dommage que l'on cause par son propre fait, mais encore de celui qui est causé par le fait des personnes dont on doit répondre, ou des choses que l'on a sous sa garde. [...] » 
 
 Exemple d'application avec l'affaire [Lucent (ESCOTA)](https://www.legalis.net/actualite/affaire-lucent-lemployeur-responsable-des-actes-en-ligne-commis-par-des-salaries/ "Employeur, responsable des actes en ligne commis par des salariés") jugée en mars 2006 par la cour d'appel d'Aix-en-Provence.
