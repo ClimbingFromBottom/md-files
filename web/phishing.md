@@ -3,7 +3,7 @@
 ## Definition
 L’hameçonnage (phishing en anglais) est une technique frauduleuse destinée à leurrer l’internaute pour l’inciter à communiquer des données personnelles (comptes d’accès, mots de passe, informations bancaire…) en se faisant passer pour un tiers de confiance. Il peut s’agir d’un faux message, SMS ou appel téléphonique de banque, d'un e-mail, de réseau social, d’opérateur de téléphonie, de fournisseur d’énergie, de site de commerce en ligne, d’administrations, etc.
 
-![Hameçonnage](https://raw.githubusercontent.com/ClimbingFromBottom/md-files/main/images/phishing/phishing-personnal_data2.png)
+![Hameçonnage](https://raw.githubusercontent.com/ClimbingFromBottom/md-files/main/images/phishing/phishing-personnal_data.png)
 
 ## Prevention
 - Ne communiquez jamais d’informations sensibles par messagerie (SMS, email, etc..) ou téléphone :   
